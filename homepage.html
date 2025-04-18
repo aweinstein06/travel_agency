@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Travel Agency</title>
   <link rel="stylesheet" href="homepage.css"/>
+  <script src="homepage.js"></script>
 </head>
 <body>
 
@@ -14,9 +15,9 @@
     <nav>
       <ul>
         <li><a href="#">Home</a></li>
-        <li><a href="#">Destinations</a></li>
-        <li><a href="#">Reviews</a></li>
-        <li><a href="#">About & Contact</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="about_contact.html">About & Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -25,21 +26,61 @@
     <section class="top-destinations">
       <h2>Top Destinations</h2>
       <div class="destinations">
-        <div class="destination-box"></div>
-        <div class="destination-box"></div>
-        <div class="destination-box"></div>
-        <div class="destination-box"></div>
+        <a href="paris.html" class="destination-link">
+          <div class="destination-box">
+            <img src="images/paris.jpg" alt="Paris">
+            <div class="city-name">Paris</div>
+          </div>
+        </a>
+    
+        <a href="tokyo.html" class="destination-link">
+          <div class="destination-box">
+            <img src="images/tokyo.avif" alt="Tokyo">
+            <div class="city-name">Tokyo</div>
+          </div>
+        </a>
+    
+        <a href="newyork.html" class="destination-link">
+          <div class="destination-box">
+            <img src="images/new_york.jpg" alt="New York">
+            <div class="city-name">New York</div>
+          </div>
+        </a>
+    
+        <a href="rio.html" class="destination-link">
+          <div class="destination-box">
+            <img src="images/rio.jpg" alt="Rio de Janeiro">
+            <div class="city-name">Rio</div>
+          </div>
+        </a>
       </div>
     </section>
+    
 
     <section class="offers">
-      <h2>What We Offer</h2>
+      <h2>What we offer</h2>
       <div class="offer-items">
-        <div class="offer"></div>
-        <div class="offer"></div>
-        <div class="offer"></div>
+        <div class="offer-card">
+          <img src="images/bed.svg" alt="Hotel Icon">
+          <h3>Hotel Booking</h3>
+          <p>We hand-pick the best accommodations for your needs — from charming boutique hotels to luxurious 5-star stays. Rest easy, we’ve got your nights covered.</p>
+        </div>
+    
+        <div class="offer-card">
+          <img src="images/person-simple-bike.svg" alt="Activities Icon">
+          <h3>Activities</h3>
+          <p>From cultural walking tours to thrilling adventures, we curate unforgettable activities tailored to your travel style. Your trip, your way — with expert planning.</p>
+        </div>
+    
+        <div class="offer-card">
+          <img src="images/fork-knife.svg" alt="Restaurant Icon">
+          <h3>Restaurant Recommendations</h3>
+          <p>Dine like a local with our handpicked list of top-rated restaurants. Whether you're after fine dining or hidden gems, we’ll guide your taste buds to unforgettable meals.</p>
+        </div>
       </div>
     </section>
+    
+    
 
     <section class="agencies">
       <h2>Agencies Near You</h2>

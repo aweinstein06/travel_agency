@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ankara - Travel & Co.</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <header class="destination-header">
+    <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="destinations.html">Destinations</a></li>
+          <li><a href="reviews.html">Reviews</a></li>
+          <li><a href="about_contact.html">About & Contact</a></li>
+        </ul>
+      </nav>
+    
+    <h1>ANKARA</h1>
+    <p>
+      Discover the vibrant capital of Türkiye, a unique blend of modernity and ancient heritage. From historic mosques to bustling markets and political landmarks, Ankara invites you to explore its rich cultural soul.
+    </p>
+  </header>
+
+  <!-- Carousel -->
+  <section class="carousel">
+    <div class="carousel-container">
+      <img src="images/ankara1.jpg" class="carousel-img active" alt="Anıtkabir">
+      <img src="images/ankara2.jpg" class="carousel-img" alt="Ankara Castle">
+      <img src="images/ankara3.jpg" class="carousel-img" alt="Atakule">
+      <button class="carousel-btn left" onclick="prevSlide()">❮</button>
+      <button class="carousel-btn right" onclick="nextSlide()">❯</button>
+    </div>
+  </section>
+
+  <!-- Itinerary -->
+  <section class="itinerary">
+    <h2>4 Days and 3 Nights Getaway</h2>
+    <p class="itinerary-note">Price starts at €2,800 per person (excluding flights)</p>
+
+    <!-- Day 1 -->
+    <div class="day-plan">
+      <h3><span class="day-dot">●</span> Day 1</h3>
+      <ul>
+        <li>10:00AM – Guided walking tour of the old town & Ankara Castle</li>
+        <li>1:00PM – Turkish lunch in Hamamönü district</li>
+        <li>3:00PM – Visit to the Museum of Anatolian Civilizations</li>
+        <li>7:00PM – Dinner at a traditional Ottoman-style restaurant</li>
+      </ul>
+    </div>
+
+    <!-- Day 2 -->
+    <div class="day-plan">
+      <h3><span class="day-dot">●</span> Day 2</h3>
+      <ul>
+        <li>9:00AM – Visit Anıtkabir, the Mausoleum of Atatürk</li>
+        <li>11:30AM – Coffee with a view at Atakule Tower</li>
+        <li>2:00PM – Explore local markets and shop for handmade souvenirs</li>
+        <li>8:00PM – Dinner & live music in Kızılay</li>
+      </ul>
+    </div>
+
+    <!-- Day 3 -->
+    <div class="day-plan">
+      <h3><span class="day-dot">●</span> Day 3</h3>
+      <ul>
+        <li>10:00AM – Turkish cooking class: meze, kebab, and baklava</li>
+        <li>1:30PM – Relaxing spa/hammam experience</li>
+        <li>4:00PM – Afternoon stroll in Gençlik Park</li>
+        <li>7:30PM – Rooftop dinner with panoramic city views</li>
+      </ul>
+    </div>
+
+    <!-- Day 4 -->
+    <div class="day-plan">
+      <h3><span class="day-dot">●</span> Day 4</h3>
+      <ul>
+        <li>9:00AM – Breakfast at a historic cafe</li>
+        <li>10:30AM – Visit to the CerModern Contemporary Arts Center</li>
+        <li>1:00PM – Farewell lunch & airport transfer</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Hotels -->
+  <section class="section-block">
+    <h2>Where to Stay</h2>
+    <div class="card-row">
+      <div class="card">
+        <img src="images/ankara-hotel1.jpg" alt="Divan Ankara">
+        <a href="https://www.google.com/aclk?sa=L&ai=DChcSEwjDouTjm-GMAxU1oGgJHcxlAzcYABAHGgJ3Zg&co=1&gclid=CjwKCAjw8IfABhBXEiwAxRHlsHU9SvwHaPOsTHoti3hJU-awGVGx6Yno0MmA0xsZGs4uSaE0Tdh-XBoCa8wQAvD_BwE&cce=1&sig=AOD64_25UCI0PGcLghuur9SxfHMF339KXA&q&adurl&ved=2ahUKEwjD19_jm-GMAxXsRaQEHVNYB8wQ0Qx6BAgJEAE" class="card-link">Divan Ankara</a>
+      </div>
+      <div class="card">
+        <img src="images/ankara-hotel2.jpeg" alt="JW Marriott Ankara">
+        <a href="https://www.google.com/aclk?sa=L&ai=DChcSEwj1v7KgnOGMAxXgkmgJHdVQNyYYABAEGgJ3Zg&co=1&gclid=CjwKCAjw8IfABhBXEiwAxRHlsFPX6im7MdMlIrmBo3PCwoml1zj9Q9U3ipEbdxBHZXMzvxW81W7OgxoCdbIQAvD_BwE&cce=1&sig=AOD64_1MEUF4nNHxECrFFuQ_OuyvaInCEA&q&adurl&ved=2ahUKEwiJhK6gnOGMAxU0KvsDHRKbOlYQ0Qx6BAgOEAE" class="card-link">JW Marriott Ankara</a>
+      </div>
+      <div class="card">
+        <img src="images/ankara-hotel3.avif" alt="Ankara HiltonSA">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.hilton.com/en/hotels/ankhitw-ankara-hiltonsa/&ved=2ahUKEwippsWnnOGMAxWoK_sDHS0gLgkQFnoECEYQAQ&usg=AOvVaw1f2KMArlYZjnCUcBoitRZ6" class="card-link">Ankara HiltonSA</a>
+      </div>
+      <div class="card">
+        <img src="images/ankara-hotel4.jpg" alt="Latanya Hotel">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=http://www.latanyaankara.com/eng&ved=2ahUKEwiCnOnInOGMAxVTKvsDHfByLOUQFnoECD8QAQ&usg=AOvVaw1KAF6o7qI_PFCyl_M5NgOk" class="card-link">Latanya Hotel</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Restaurants -->
+  <section class="section-block">
+    <h2>Restaurants</h2>
+    <div class="card-row">
+      <div class="card">
+        <img src="images/trilye.jpg" alt="Trilye">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://trilye.com.tr/en/&ved=2ahUKEwiZuafQnOGMAxVNT6QEHYzVLz8QFnoECCQQAQ&usg=AOvVaw00VXjDWPI91IxmUbwGf4aVt" class="card-link">Trilye Restaurant</a>
+      </div>
+      <div class="card">
+        <img src="images/kebap49.jpg" alt="Kebap 49">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=http://www.kebap49.com.tr/&ved=2ahUKEwjpgKL2nOGMAxW9U6QEHXuOPQgQFnoECA0QAQ&usg=AOvVaw0p7lVIvaE1nMNhNtCLEbgV" class="card-link">Kebap 49</a>
+      </div>
+      <div class="card">
+        <img src="images/fige.jpg" alt="Fige Restaurant">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.tripadvisor.com.tr/Restaurant_Review-g298656-d806432-Reviews-Fige_Restaurant_Bar-Ankara.html&ved=2ahUKEwjyqduQneGMAxXzKvsDHR-VH1oQFnoECDkQAQ&usg=AOvVaw1InWhRYLS8kHnqiu65Y_7_" class="card-link">Fige Restaurant & Jazz Bar</a>
+      </div>
+      <div class="card">
+        <img src="images/divan_çukurhan.jpg" alt="Divan Cukurhant">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.divan.com.tr/otel/divan-cukurhan-otel/safranhan-brasserie&ved=2ahUKEwirioe_neGMAxX0APsDHdPaMcAQFnoECEYQAQ&usg=AOvVaw3ljfYFgxp_2Ae0dVvFakCu" class="card-link">Divan Çukurhan</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Activities -->
+  <section class="section-block">
+    <h2>Activities</h2>
+    <div class="card-row">
+      <div class="card">
+        <img src="images/anitkabir-ankara.webp" alt="Anıtkabir">
+        <a href="https://turkeytravelplanner.com/go/CentralAnatolia/Ankara/sights/anitkabir.html" class="card-link">Visit to Anıtkabir</a>
+      </div>
+      <div class="card">
+        <img src="images/atakule-view.jpg" alt="Atakule">
+        <a href="https://www.atakule.com.tr/Tower/Suprise" class="card-link">View from Atakule</a>
+      </div>
+      <div class="card">
+        <img src="images/hammam.webp" alt="Turkish Hammam">
+        <a href="https://www.getyourguide.com/side-l856/city-of-side-turkish-bath-massage-and-sauna-with-transfer-t760379/?ranking_uuid=13005d61-52de-4f94-97db-2eb611a045fe" class="card-link">Traditional Turkish Hammam Experience</a>
+      </div>
+      <div class="card">
+        <img src="images/culinary.jpg" alt="Cooking Class">
+        <a href="https://turkishculinaryacademy.com/en/workshops/" class="card-link">Ankara Culinary Workshop</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Travel & Co. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

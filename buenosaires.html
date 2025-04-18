@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Buenos Aires - Travel & Co.</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <header class="destination-header">
+    <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="destinations.html">Destinations</a></li>
+          <li><a href="reviews.html">Reviews</a></li>
+          <li><a href="about_contact.html">About & Contact</a></li>
+        </ul>
+      </nav>
+    
+    <h1>BUENOS AIRES</h1>
+    <p>
+      The Paris of South America — Buenos Aires is bursting with personality. From steamy tango shows and lively plazas to historical barrios and gourmet steaks, this city dances to its own rhythm.
+    </p>
+  </header>
+
+  <!-- Carousel -->
+  <section class="carousel">
+    <div class="carousel-container">
+      <img src="images/ba1.jpg" class="carousel-img active" alt="La Boca Street">
+      <img src="images/ba2.jpg" class="carousel-img" alt="Teatro Colón">
+      <img src="images/ba3.jpg" class="carousel-img" alt="Obelisco at Night">
+      <button class="carousel-btn left" onclick="prevSlide()">❮</button>
+      <button class="carousel-btn right" onclick="nextSlide()">❯</button>
+    </div>
+  </section>
+
+  <!-- Itinerary -->
+  <section class="itinerary">
+    <h2>4 Days and 3 Nights Getaway</h2>
+    <p class="itinerary-note">Price starts at €2,900 per person (excluding flights)</p>
+
+    <!-- Day 1 -->
+    <div class="day-plan">
+      <h3><span class="day-dot">●</span> Day 1</h3>
+      <ul>
+        <li>12:00PM – Arrival at Ezeiza Airport, private transfer to hotel</li>
+        <li>3:00PM – Coffee at Café Tortoni & check-in stroll through Microcentro</li>
+        <li>7:30PM – Welcome dinner and tango show in San Telmo</li>
+      </ul>
+    </div>
+
+    <!-- Day 2 -->
+    <div class="day-plan">
+      <h3><span class="day-dot">●</span> Day 2</h3>
+      <ul>
+        <li>9:00AM – Guided city tour (Recoleta, Palermo, and La Boca)</li>
+        <li>1:00PM – Lunch at a traditional parrilla</li>
+        <li>3:00PM – Visit Recoleta Cemetery & Eva Perón’s tomb</li>
+        <li>6:00PM – Wine tasting at a local cellar</li>
+      </ul>
+    </div>
+
+    <!-- Day 3 -->
+    <div class="day-plan">
+      <h3><span class="day-dot">●</span> Day 3</h3>
+      <ul>
+        <li>10:00AM – Bike tour through the ecological reserve & Puerto Madero</li>
+        <li>1:00PM – Street food lunch at Mercado de San Telmo</li>
+        <li>4:00PM – Optional tango class or leather shopping in Palermo</li>
+        <li>8:00PM – Rooftop dinner at Palacio Barolo</li>
+      </ul>
+    </div>
+
+    <!-- Day 4 -->
+    <div class="day-plan">
+      <h3><span class="day-dot">●</span> Day 4</h3>
+      <ul>
+        <li>9:00AM – Brunch in Palermo Soho</li>
+        <li>11:00AM – Visit to Museo de Arte Latinoamericano (MALBA)</li>
+        <li>1:00PM – Farewell empanadas & airport transfer</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Hotels -->
+  <section class="section-block">
+    <h2>Where to Stay</h2>
+    <div class="card-row">
+      <div class="card">
+        <img src="images/ba-hotel1.jpg" alt="Alvear Palace">
+        <a href="http://www.alvearpalace.com/" class="card-link">Alvear Palace Hotel</a>
+      </div>
+      <div class="card">
+        <img src="images/ba-hotel2.jpg" alt="Four Seasons">
+        <a href="https://www.fourseasons.com/buenosaires/?utm_source=google&utm_medium=organicsearch&utm_campaign=tor-bue-hre-mid-seo-na&utm_content=na-na&utm_term=na" class="card-link">Four Seasons Buenos Aires</a>
+      </div>
+      <div class="card">
+        <img src="images/ba-hotel3.webp" alt="CasaSur Palermo">
+        <a href="http://www.casasurhotel.com/palermo" class="card-link">CasaSur Palermo</a>
+      </div>
+      <div class="card">
+        <img src="images/ba-hotel4.jpg" alt="Palo Santo">
+        <a href="https://www.palosantohotel.com/" class="card-link">Palo Santo Hotel</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Restaurants -->
+  <section class="section-block">
+    <h2>Restaurants</h2>
+    <div class="card-row">
+      <div class="card">
+        <img src="images/don-julio.jpg" alt="Don Julio">
+        <a href="https://www.parrilladonjulio.com/" class="card-link">Don Julio Parrilla</a>
+      </div>
+      <div class="card">
+        <img src="images/oviedo.jpg" alt="Oviedo">
+        <a href="http://www.oviedoresto.com.ar/" class="card-link">Oviedo</a>
+      </div>
+      <div class="card">
+        <img src="images/elena.jpg" alt="Elena">
+        <a href="https://www.fourseasons.com/buenosaires/dining/restaurants/elena/?utm_source=google&utm_medium=organicsearch&utm_campaign=tor-bue-fab-mid-seo-na&utm_content=na-na&utm_term=na" class="card-link">Elena at Four Seasons</a>
+      </div>
+      <div class="card">
+        <img src="images/narda.jpg" alt="Narda Comedor">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.tripadvisor.es/Restaurant_Review-g312741-d13186413-Reviews-Narda_Comedor-Buenos_Aires_Capital_Federal_District.html&ved=2ahUKEwjgw7mf0uGMAxXxTKQEHROuM9IQFnoECEEQAQ&usg=AOvVaw2csnPXZVHxOPf-2qs5Bbk4" class="card-link">Narda Comedor</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Activities -->
+  <section class="section-block">
+    <h2>Activities</h2>
+    <div class="card-row">
+      <div class="card">
+        <img src="images/tango.jpg" alt="Tango Night">
+        <a href="https://www.getyourguide.com/buenos-aires-l1/senor-tango-executive-gourmet-dinner-show-t522837/?ranking_uuid=24700587-52f3-4c4c-a084-843a81eef122" class="card-link">Tango Show in San Telmo</a>
+      </div>
+      <div class="card">
+        <img src="images/bike.jpg" alt="Bike Tour">
+        <a href="https://www.getyourguide.com/buenos-aires-l1/buenos-aires-full-day-bike-tour-with-lunch-t167909/?ranking_uuid=c4130f1e-eec8-4c2c-8dd4-fc3b1a63fe95" class="card-link">Buenos Aires Bike Tour</a>
+      </div>
+      <div class="card">
+        <img src="images/recoleta.jpg" alt="Recoleta Walk">
+        <a href="https://www.getyourguide.com/la-recoleta-cemetery-l3890/buenos-aires-la-recoleta-cemetery-guided-walking-tour-t236092/?ranking_uuid=20d45de3-9b35-4888-9069-42dd8052c2a1" class="card-link">Recoleta Cemetery Guided Tour</a>
+      </div>
+      <div class="card">
+        <img src="images/market.webp" alt="San Telmo Market">
+        <a href="https://www.tripadvisor.com/Attraction_Review-g312741-d3793218-Reviews-Mercado_San_Telmo-Buenos_Aires_Capital_Federal_District.html" class="card-link">San Telmo Market Visit</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Travel & Co. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

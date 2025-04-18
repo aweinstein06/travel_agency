@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paris - Travel & Co.</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <header class="destination-header">
+    <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="destinations.html">Destinations</a></li>
+          <li><a href="reviews.html">Reviews</a></li>
+          <li><a href="about_contact.html">About & Contact</a></li>
+        </ul>
+      </nav>
+    
+    <h1>PARIS</h1>
+    <p>
+      The French capital is a stunning place for holidays. The city of lights offers you culture, cuisine, fashion, and timeless romance - no matter what you love, Paris will steal your heart!
+    </p>
+  </header>
+
+  <!-- Carousel -->
+  <section class="carousel">
+    <div class="carousel-container">
+      <img src="images/paris.jpg" class="carousel-img active" alt="Eiffel Tower">
+      <img src="images/louvre.jpg" class="carousel-img" alt="Louvre Museum">
+      <img src="images/seine.jpg" class="carousel-img" alt="Seine River Cruise">
+      <button class="carousel-btn left" onclick="prevSlide()">❮</button>
+      <button class="carousel-btn right" onclick="nextSlide()">❯</button>
+    </div>
+  </section>
+
+  <!-- Trip Plan -->
+  <section class="itinerary">
+    <h2>4 Days and 3 Nights Getaway</h2>
+    <p class="itinerary-note">Price starts at €3,400 per person (excluding flights)</p>
+  
+    <!-- Day 1 -->
+    <div class="day-plan">
+      <h3><span class="day-dot">●</span> Day 1</h3>
+      <ul>
+        <li>10:00AM – Paris Highlights walking tour (2 hrs)</li>
+        <li>12:30PM – Picnic lunch with Eiffel Tower view (Champ de Mars)</li>
+        <li>3:00PM – Seine River sightseeing cruise</li>
+        <li>7:30PM – Welcome dinner at a classic Parisian brasserie</li>
+      </ul>
+    </div>
+  
+    <!-- Day 2 -->
+    <div class="day-plan">
+      <h3><span class="day-dot">●</span> Day 2</h3>
+      <ul>
+        <li>9:30AM – Skip-the-line Louvre Museum tour (2 hrs)</li>
+        <li>12:30PM – Lunch in the Palais Royal area</li>
+        <li>3:00PM – Montmartre district & Sacré-Cœur walking tour</li>
+        <li>6:30PM – Sunset view from the Arc de Triomphe</li>
+      </ul>
+    </div>
+  
+    <!-- Day 3 -->
+    <div class="day-plan">
+      <h3><span class="day-dot">●</span> Day 3</h3>
+      <ul>
+        <li>10:00AM – Guided food tour: pastries, cheese & wine</li>
+        <li>1:00PM – Free time in Le Marais (explore, shop, or relax)</li>
+        <li>4:00PM – Optional perfume-making workshop</li>
+        <li>8:00PM – Romantic dinner at a rooftop restaurant with Eiffel Tower view</li>
+      </ul>
+    </div>
+  
+    <!-- Day 4 -->
+    <div class="day-plan">
+      <h3><span class="day-dot">●</span> Day 4</h3>
+      <ul>
+        <li>9:00AM – Visit to Notre-Dame & Île de la Cité</li>
+        <li>11:00AM – Café breakfast & stroll along the Seine</li>
+        <li>12:30PM – Last-minute shopping or museum visit</li>
+        <li>2:00PM – Departure assistance / airport transfer</li>
+      </ul>
+    </div>
+  </section>
+  
+
+  <!-- Hotels -->
+  <section class="section-block">
+    <h2>Where to Stay</h2>
+    <div class="card-row">
+      <div class="card">
+        <img src="images/crillon.jpg" alt="Crillon">
+        <a href="https://reservations.rosewoodhotels.com/?adult=2&arrive=2025-04-18&chain=5159&child=0&currency=EUR&depart=2025-04-19&dsclid=69415206519320576&filter=META&hotel=75077&level=hotel&locale=en-US&productcurrency=EUR&rooms=1&src=DERBYSOFT-GOOGLE&start=availresults&theme=theme3&utm_campaign=derbysoft-rwcri-meta&utm_medium=metasearch&utm_source=googlelocaluniversal" class="card-link">Hotel de Crillon</a>
+      </div>
+      <div class="card">
+        <img src="images/shangri-la.webp" alt="Shangri-La">
+        <a href="https://www.shangri-la.com/paris/shangrila/?WT.mc_id=SLPR__FR_SEM_GOOGLE_AON_BRANDINTERNATIONAL_RSA_TEXTLINK_EN_Shangri-la%20paris-AHistoric5-StarPalaceHotel&gclsrc=aw.ds&gad_source=1&gad_campaignid=12986571784&gbraid=0AAAAADh8v_N_vt8bMUvZU925q_NjOoTqy&gclid=CjwKCAjw8IfABhBXEiwAxRHlsEwCKDK87-3Zz6Ta4Abq--d_3CGEHnF23592WuRr9Oox4PTnOM52eBoCtEQQAvD_BwE" class="card-link">Shangri-La</a>
+      </div>
+      <div class="card">
+        <img src="images/remix.jpg" alt="Remix">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.remix-hotel.com/&ved=2ahUKEwi0uZnLk-GMAxXZK_sDHW53O-kQFnoECFMQAQ&usg=AOvVaw2vKI2HDrBmaTpy3osesjDM" class="card-link">ReMIX Hotel</a>
+      </div>
+      <div class="card">
+        <img src="images/chevalblanc.jpg" alt="Cheval Blanc">
+        <a href="https://www.chevalblanc.com/fr/maison/paris/?gad_source=1&gad_campaignid=12365238124&gbraid=0AAAAADRXl0W4Y247NSm4apMjqSmhdotL6&gclid=CjwKCAjw8IfABhBXEiwAxRHlsEnFiMDJTr0lNnF7rzQ2Yt8k8wPefCV_KxnNodhSsE1yP5w319vCRRoCS8EQAvD_BwE" class="card-link">Cheval Blanc</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Restaurants -->
+  <section class="section-block">
+    <h2>Restaurants</h2>
+    <div class="card-row">
+      <div class="card">
+        <img src="images/bouillon.jpg" alt="Bouillon">
+        <a href="https://bouillonlesite.com/bouillon-republique" class="card-link">Bouillon Republique</a>
+      </div>
+      <div class="card">
+        <img src="images/pinkmamma.jpg" alt="Pink Mamma">
+        <a href="https://www.bigmammagroup.com/italian-restaurants/pink-mamma/?utm_source=google&utm_medium=organic&utm_campaign=mybusiness-website" class="card-link">Pink Mamma</a>
+      </div>
+      <div class="card">
+        <img src="images/espadon.jpg" alt="Espadon">
+        <a href="https://www.ritzparis.com/hotel/paris/bars-restaurants/espadon-restaurant?utm_source=google&utm_medium=organic&utm_campaign=gmb_espadon" class="card-link">Espadon</a>
+      </div>
+      <div class="card">
+        <img src="images/substance.jpg" alt="Substance">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.substance.paris/&ved=2ahUKEwiAu8KwluGMAxU1SKQEHffDLOcQFnoECEAQAQ&usg=AOvVaw3XAZWaecaT1fvdTKaR3GFX" class="card-link">Substance</a>
+      </div>
+    </div>
+  </section>
+  <!-- Activities -->
+  <section class="section-block">
+    <h2>Activities</h2>
+    <div class="card-row">
+      <div class="card">
+        <img src="images/seine_cruise.jpg" alt="Seine Cruise">
+        <a href="  https://www.getyourguide.com/seine-river-l2601/paris-1-hour-seine-cruise-departing-from-the-eiffel-tower-t193940/?ranking_uuid=33371eff-3c48-4621-beb7-2652d24728ce" class="card-link">1-Hour Seine Cruise departing from the Eiffel Tower</a>
+      </div>
+      <div class="card">
+        <img src="images/louvre_tour.jpg" alt="Louvre Tour">
+        <a href="https://www.getyourguide.com/paris-l16/quick-entrance-louvre-museum-3-hour-tour-t10505/?ranking_uuid=33371eff-3c48-4621-beb7-2652d24728ce" class="card-link">Louvre Museum Tour</a>
+      </div>
+      <div class="card">
+        <img src="images/notre_dame.jpg" alt="Notre Dame">
+        <a href="https://www.getyourguide.com/paris-l16/paris-notre-dame-cathedral-exterior-tour-with-free-entry-t695603/?ranking_uuid=c7cbfdcb-c16c-4a21-bb31-ed6c61600c4f" class="card-link">Notre Dame Cathedral Tour</a>
+      </div>
+      <div class="card">
+        <img src="images/macaron.jpg" alt="Macaron Class">
+        <a href="https://www.getyourguide.com/paris-l16/french-macaron-bakery-class-in-the-heart-of-paris-t149906/?ranking_uuid=3626e4b7-aa1d-49d5-a8d0-67bdaae03c02" class="card-link">Macaron Class at Galeries Lafayette</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Travel & Co. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
