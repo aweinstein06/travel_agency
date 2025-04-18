@@ -1,34 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Travel&Co Logo</title>
-  <style>
-    .logo {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      font-size: 48px;
-      color: #2c3e50;
-      display: flex;
-      align-items: center;
-    }
-    .logo-icon {
-      width: 50px;
-      height: 50px;
-      background-color: #3498db;
-      border-radius: 50%;
-      margin-right: 15px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: white;
-      font-size: 24px;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Travel Agency</title>
+  <link rel="stylesheet" href="homepage.css"/>
 </head>
 <body>
-  <div class="logo">
-    <div class="logo-icon">✈️</div>
-    Travel&Co
-  </div>
+
+  <header>
+    <div class="logo"> <img src="images/homepage.png" alt="Travel Image" id = "logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Destinations</a></li>
+        <li><a href="#">Reviews</a></li>
+        <li><a href="#">About & Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="top-destinations">
+      <h2>Top Destinations</h2>
+      <div class="destinations">
+        <div class="destination-box"></div>
+        <div class="destination-box"></div>
+        <div class="destination-box"></div>
+        <div class="destination-box"></div>
+      </div>
+    </section>
+
+    <section class="offers">
+      <h2>What We Offer</h2>
+      <div class="offer-items">
+        <div class="offer"></div>
+        <div class="offer"></div>
+        <div class="offer"></div>
+      </div>
+    </section>
+
+    <section class="agencies">
+      <h2>Agencies Near You</h2>
+      <div class="map">
+        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1LqaeymBnHVIRddRkEhHeT0zJl11xtdw&ehbc=2E312F&noprof=1" width=100% height=100%></iframe>      </div>
+      
+    </section>
+    
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Travel & Co. All rights reserved.</p>
+  </footer>
+
+</body>
+
 </body>
 </html>
