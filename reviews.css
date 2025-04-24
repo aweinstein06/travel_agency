@@ -81,6 +81,51 @@
     border-top: 1px solid #222;
   }
   
+  /* Reviews bar*/ 
+  .reviews-summary {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .reviews-summary h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 24px;
+  }
+  
+  .rating-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .star-label {
+    width: 60px;
+  }
+  
+  .bar {
+    flex-grow: 1;
+    height: 15px;
+    background-color: #f0f0f0;
+    border-radius: 7px;
+    overflow: hidden;
+    margin: 0 10px;
+  }
+  
+  .fill {
+    height: 100%;
+    background-color: gold; /* Explicitly sets yellow color */
+    border-radius: 7px 0 0 7px; /* rounded corners for the filled bar */
+  }
+  
+  .rating-count {
+    width: 40px;
+    text-align: right;
+  }
+  
   /* Review section */
   .review {
     max-width: 800px;
