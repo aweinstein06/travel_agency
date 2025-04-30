@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Madrid - Travel & Co.</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <header class="destination-header">
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="about_contact.html">About & Contact</a></li>
+      </ul>
+    </nav>
+    
+    <h1>MADRID</h1>
+    <p>
+      Madrid is bold, elegant, and alive — where royal palaces meet tapas bars, flamenco ignites the night, and plazas buzz with life. A perfect city to explore by day and savor by night.
+    </p>
+  </header>
+
+  <!-- Carousel -->
+  <section class="carousel">
+    <div class="carousel-container">
+      <img src="images/madrid1.jpg" class="carousel-img active" alt="Royal Palace of Madrid">
+      <img src="images/madrid2.webp" class="carousel-img" alt="Gran Vía">
+      <img src="images/madrid3.webp" class="carousel-img" alt="Retiro Park">
+      <button class="carousel-btn left" onclick="prevSlide()">❮</button>
+      <button class="carousel-btn right" onclick="nextSlide()">❯</button>
+    </div>
+  </section>
+
+  <!-- Itinerary -->
+  <section class="itinerary">
+    <h2>4 Days and 3 Nights Getaway</h2>
+    <p class="itinerary-note">Price starts at €2,850 per person (excluding flights)</p>
+
+    <!-- Day 1 -->
+    <div class="day-plan">
+      <h3><span class="day-dot">●</span> Day 1</h3>
+      <ul>
+        <li>12:00PM – Arrival at Madrid-Barajas, transfer to city center</li>
+        <li>3:00PM – Stroll through Plaza Mayor and Mercado de San Miguel</li>
+        <li>8:00PM – Tapas dinner and welcome drinks in La Latina</li>
+      </ul>
+    </div>
+
+    <!-- Day 2 -->
+    <div class="day-plan">
+      <h3><span class="day-dot">●</span> Day 2</h3>
+      <ul>
+        <li>9:30AM – Guided tour of the Royal Palace & Almudena Cathedral</li>
+        <li>12:30PM – Lunch near Gran Vía and shopping time</li>
+        <li>4:00PM – Visit to the Prado Museum</li>
+        <li>9:00PM – Flamenco show with wine & tapas</li>
+      </ul>
+    </div>
+
+    <!-- Day 3 -->
+    <div class="day-plan">
+      <h3><span class="day-dot">●</span> Day 3</h3>
+      <ul>
+        <li>10:00AM – Morning rowboat ride at Retiro Park</li>
+        <li>12:30PM – Rooftop lunch with panoramic views of Madrid</li>
+        <li>3:00PM – Explore the Reina Sofía Museum (Picasso’s *Guernica*)</li>
+        <li>7:30PM – Sunset drinks in the Malasaña district</li>
+      </ul>
+    </div>
+
+    <!-- Day 4 -->
+    <div class="day-plan">
+      <h3><span class="day-dot">●</span> Day 4</h3>
+      <ul>
+        <li>9:00AM – Brunch at El Rastro flea market (Sundays)</li>
+        <li>11:30AM – Walk along the Madrid Río</li>
+        <li>1:00PM – Farewell lunch & airport transfer</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Hotels -->
+  <section class="section-block">
+    <h2>Where to Stay</h2>
+    <div class="card-row">
+      <div class="card">
+        <img src="images/madrid-hotel1.jpg" alt="Mandarin Oriental Ritz">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.mandarinoriental.com/en/madrid/hotel-ritz?src%3Dloc.local_listing.rzmad.ggl&ved=2ahUKEwj8w_H55-mMAxWunokEHZO5AzwQ_Bd6BAgeEAI&opi=89978449&usg=AOvVaw027MeS1z84pb2GfPLkNIno" class="card-link">Mandarin Oriental Ritz</a>
+      </div>
+      <div class="card">
+        <img src="images/madrid-hotel2.jpg" alt="URSO Hotel">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://hotelurso.com/?utm_source%3Dgoogle%26utm_medium%3Dmaps%26utm_campaign%3Dmybusiness%26utm_content%3Durso&ved=2ahUKEwj8pLr_5-mMAxVnq4kEHbR5MvgQ_Bd6BAghEAI&opi=89978449&usg=AOvVaw3_JBlcRsrKcjMeWUXhOdpY" class="card-link">URSO Hotel & Spa</a>
+      </div>
+      <div class="card">
+        <img src="images/madrid-hotel3.jpg" alt="Only YOU Atocha">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.onlyyouhotels.com/hoteles/only-you-hotel-atocha/?y_source%3D1_MTU0MTQ0ODAtNzE1LWxvY2F0aW9uLndlYnNpdGU%253D&ved=2ahUKEwig--Kg6OmMAxU2kIkEHSzLA3wQ_Bd6BAggEAI&opi=89978449&usg=AOvVaw0l9qMbaOt9Pi63NE0QP-PY" class="card-link">Only YOU Atocha</a>
+      </div>
+      <div class="card">
+        <img src="images/madrid-hotel4.jpg" alt="Room Mate Alba">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://room-matehotels.com/gb/hotel-alba-madrid/?utm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_campaign%3Dgoogle-my-business-alba&ved=2ahUKEwj1t8Gm6OmMAxXshIkEHew_HoMQ_Bd6BAgkEAI&opi=89978449&usg=AOvVaw25TTW5wdmBgBZcgYUisTFh" class="card-link">Room Mate Alba</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Restaurants -->
+  <section class="section-block">
+    <h2>Restaurants</h2>
+    <div class="card-row">
+      <div class="card">
+        <img src="images/botín.jpg" alt="Botín">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=http://www.botin.es/&ved=2ahUKEwjVvaDC6OmMAxVWlIkEHS_iNOUQ_Bd6BAgnEAI&opi=89978449&usg=AOvVaw3x4y_MQx2G5kA04rE9G2m1" class="card-link">Sobrino de Botín (world’s oldest restaurant)</a>
+      </div>
+      <div class="card">
+        <img src="images/dstage.jpg" alt="DSTAgE">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=http://www.dstageconcept.com/&ved=2ahUKEwjhw-XN6OmMAxUEtokEHTaEKN8Q_Bd6BAghEAI&opi=89978449&usg=AOvVaw3hVqkPmfD29Vvyi78QUMC6" class="card-link">DSTAgE (Michelin-starred)</a>
+      </div>
+      <div class="card">
+        <img src="images/taberna.jpg" alt="Taberna El Sur">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://tabernaelsur.shop/&ved=2ahUKEwiRsa3t6OmMAxWnAHkGHQDLDuEQ_Bd6BAgpEAI&opi=89978449&usg=AOvVaw0gInavoOFRukhAxgts_TzP" class="card-link">Taberna El Sur</a>
+      </div>
+      <div class="card">
+        <img src="images/salmon-guru.webp" alt="Salmon Guru">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.salmonguru.es/&ved=2ahUKEwjctcfy6OmMAxWnjokEHVEUJ_UQ_Bd6BAgnEAI&opi=89978449&usg=AOvVaw3kMwOmJgLBkdLU_YTmEj3f" class="card-link">Salmon Guru (award-winning cocktails)</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Activities -->
+  <section class="section-block">
+    <h2>Activities</h2>
+    <div class="card-row">
+      <div class="card">
+        <img src="images/prado.jpg" alt="Prado Museum">
+        <a href="https://www.getyourguide.com/madrid-l46/madrid-prado-museum-guided-tour-with-skip-the-line-ticket-t738022/?ranking_uuid=07ec9fce-3c31-4669-82b0-9de8ddcd50ac" class="card-link">Prado Museum Tour</a>
+      </div>
+      <div class="card">
+        <img src="images/flamenco.jpg" alt="Flamenco Show">
+        <a href="https://www.getyourguide.com/madrid-l46/madrid-flamenco-show-at-torres-bermejas-t68374/?ranking_uuid=b777dc46-d04b-466e-a848-792fc0febc60" class="card-link">Flamenco Night Experience</a>
+      </div>
+      <div class="card">
+        <img src="images/retiro.jpg" alt="Retiro Park">
+        <a href="https://www.esmadrid.com/en/tourist-information/estanque-grande-de-el-retiro" class="card-link">Rowboat in Retiro Park</a>
+      </div>
+      <div class="card">
+        <img src="images/latina.png" alt="Tapas Tour">
+        <a href="https://www.tripadvisor.com/AttractionProductReview-g187514-d32824032-Madrid_Tapas_Wine_and_History_Tour-Madrid.html" class="card-link">Tapas Tour in La Latina</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Travel & Co. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vancouver - Travel & Co.</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <header class="destination-header">
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="about_contact.html">About & Contact</a></li>
+      </ul>
+    </nav>
+    
+    <h1>VANCOUVER</h1>
+    <p>
+      Where ocean meets mountains, and modernity meets nature — Vancouver is a haven for food lovers, hikers, skiers, and creatives. Fresh air, global flavor, and West Coast vibes await.
+    </p>
+  </header>
+
+  <!-- Carousel -->
+  <section class="carousel">
+    <div class="carousel-container">
+      <img src="images/vancouver1.png" class="carousel-img active" alt="Vancouver Waterfront">
+      <img src="images/vancouver2.webp" class="carousel-img" alt="Stanley Park">
+      <img src="images/vancouver3.jpg" class="carousel-img" alt="Downtown Vancouver skyline">
+      <button class="carousel-btn left" onclick="prevSlide()">❮</button>
+      <button class="carousel-btn right" onclick="nextSlide()">❯</button>
+    </div>
+  </section>
+
+  <!-- Itinerary -->
+  <section class="itinerary">
+    <h2>4 Days and 3 Nights Getaway</h2>
+    <p class="itinerary-note">Price starts at €2,850 per person (excluding flights)</p>
+
+    <!-- Day 1 -->
+    <div class="day-plan">
+      <h3><span class="day-dot">●</span> Day 1</h3>
+      <ul>
+        <li>12:00PM – Arrive at YVR, transfer to downtown hotel</li>
+        <li>3:00PM – Explore Gastown: cobblestone streets & steam clock</li>
+        <li>7:00PM – Pacific seafood dinner on the waterfront</li>
+      </ul>
+    </div>
+
+    <!-- Day 2 -->
+    <div class="day-plan">
+      <h3><span class="day-dot">●</span> Day 2</h3>
+      <ul>
+        <li>9:00AM – Bike ride around Stanley Park Seawall</li>
+        <li>12:00PM – Sushi lunch on Robson Street</li>
+        <li>3:00PM – Visit to Granville Island Public Market</li>
+        <li>8:00PM – Rooftop cocktails in Yaletown</li>
+      </ul>
+    </div>
+
+    <!-- Day 3 -->
+    <div class="day-plan">
+      <h3><span class="day-dot">●</span> Day 3</h3>
+      <ul>
+        <li>8:00AM – Day trip to Capilano Suspension Bridge & Grouse Mountain</li>
+        <li>1:00PM – Lunch with mountain views</li>
+        <li>4:00PM – Return and spa afternoon at the hotel</li>
+        <li>7:30PM – Dinner at a farm-to-table bistro</li>
+      </ul>
+    </div>
+
+    <!-- Day 4 -->
+    <div class="day-plan">
+      <h3><span class="day-dot">●</span> Day 4</h3>
+      <ul>
+        <li>9:00AM – Morning stroll along English Bay Beach</li>
+        <li>11:30AM – Farewell brunch in Kitsilano</li>
+        <li>1:00PM – Check-out & airport transfer</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Hotels -->
+  <section class="section-block">
+    <h2>Where to Stay</h2>
+    <div class="card-row">
+      <div class="card">
+        <img src="images/vancouver-hotel1.jpg" alt="Fairmont Pacific Rim">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.fairmont.com/pacific-rim-vancouver/?goto%3Dfiche_hotel%26code_hotel%3DA585%26merchantid%3Dseo-maps-CA-A585%26sourceid%3Daw-cen%26utm_medium%3Dseo%2520maps%26utm_source%3Dgoogle%2520Maps%26utm_campaign%3Dseo%2520maps&ved=2ahUKEwi_4Liw3uyMAxU2hIkEHb3_HP8Q_Bd6BAgfEAI&opi=89978449&usg=AOvVaw3j5_v4HjiUT-S4Kca7hGFI" class="card-link">Fairmont Pacific Rim</a>
+      </div>
+      <div class="card">
+        <img src="images/vancouver-hotel2.webp" alt="Wedgewood Hotel">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=http://www.wedgewoodhotel.com/?utm_source%3DGoogleMapsWW%26utm_medium%3Dorganic%26utm_content%3DBusinesslisting&ved=2ahUKEwjBxcO33uyMAxWrjokEHcJyO6kQ_Bd6BAgfEAI&opi=89978449&usg=AOvVaw1pxF_Tj5WABk9njVM-7Ea7" class="card-link">Wedgewood Hotel & Spa</a>
+      </div>
+      <div class="card">
+        <img src="images/vancouver-hotel3.avif" alt="Loden Hotel">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=http://theloden.com/&ved=2ahUKEwjirafP3uyMAxUTj4kEHVSNMi8Q_Bd6BAgnEAI&opi=89978449&usg=AOvVaw3zgqK8dU04UeX5kGEOvHtr" class="card-link">Loden Hotel</a>
+      </div>
+      <div class="card">
+        <img src="images/vancouver-hotel4.jpg" alt="JW Marriott Parq Vancouver">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.marriott.com/en-us/hotels/yvrjw-jw-marriott-parq-vancouver/overview/?scid%3Df2ae0541-1279-4f24-b197-a979c79310b0&ved=2ahUKEwj_y-LW3uyMAxWTk4kEHWQiMfoQ_Bd6BAhREAI&opi=89978449&usg=AOvVaw2LvXzLsxLaQ567XGKJzW3P" class="card-link">JW Marriott Parq Vancouver</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Restaurants -->
+  <section class="section-block">
+    <h2>Restaurants</h2>
+    <div class="card-row">
+      <div class="card">
+        <img src="images/miku.jpg" alt="Miku Restaurant">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=http://www.mikurestaurant.com/&ved=2ahUKEwjW54vv3uyMAxWUq4kEHfPIGokQ_Bd6BAgrEAI&opi=89978449&usg=AOvVaw2Lr0zhLslLPQYpG4qdvtKH" class="card-link">Miku (Aburi Sushi)</a>
+      </div>
+      <div class="card">
+        <img src="images/botanist.webp" alt="Botanist Dining">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.botanistrestaurant.com/?utm_source%3Dgoogle%2BMaps%26utm_medium%3Dseo%2Bmaps%26utm_campaign%3Dseo%2Bmaps&ved=2ahUKEwj9jfX13uyMAxUxv4kEHTpxIlQQ_Bd6BAgoEAI&opi=89978449&usg=AOvVaw2BnLZnrRNd0yIVgZNSR4qP" class="card-link">Botanist</a>
+      </div>
+      <div class="card">
+        <img src="images/stlawrence.jpg" alt="St. Lawrence Restaurant">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=http://www.stlawrencerestaurant.com/&ved=2ahUKEwjigoeP3-yMAxWypIkEHUMVHNAQ_Bd6BAgrEAI&opi=89978449&usg=AOvVaw19Vu_nbGjtB3ss4BkWcEav" class="card-link">St. Lawrence</a>
+      </div>
+      <div class="card">
+        <img src="images/tacofino.jpg" alt="Tacofino">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.tacofino.com/location/ocho&ved=2ahUKEwif_d-U3-yMAxXZl4kEHTrTLpIQgU96BAgqEAk&usg=AOvVaw1bkRdXYNv0-hC_Y2QWqG45" class="card-link">Tacofino</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Activities -->
+  <section class="section-block">
+    <h2>Activities</h2>
+    <div class="card-row">
+      <div class="card">
+        <img src="images/stanleypark.jpg" alt="Stanley Park Bike">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.theemptynestexplorers.com/blog/exploring-vancouver-cycling-the-seawall-bike-route-of-stanley-park&ved=2ahUKEwiv3aas3-yMAxV7CnkGHTYNMjwQFnoECCwQAQ&usg=AOvVaw3gER75-Om-TiFPWf6In46x" class="card-link">Stanley Park Biking Tour</a>
+      </div>
+      <div class="card">
+        <img src="images/capilano.jpg" alt="Capilano Bridge">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.capbridge.com/&ved=2ahUKEwi18t2z3-yMAxUJv4kEHQTWL4EQFnoECFMQAQ&usg=AOvVaw0oks5pL0vB8otFNTBSTVi6" class="card-link">Capilano Suspension Bridge</a>
+      </div>
+      <div class="card">
+        <img src="images/granville.jpg" alt="Granville Island">
+        <a href="https://www.getyourguide.com/vancouver-l189/granville-island-market-tour-t51241/?ranking_uuid=c8451486-ab74-4f0a-ab09-dcb9c0400111" class="card-link">Granville Island Market Visit</a>
+      </div>
+      <div class="card">
+        <img src="images/englishbay.jpg" alt="English Bay Beach">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://vancouver.ca/parks-recreation-culture/sunset-beach-to-english-bay.aspx&ved=2ahUKEwjA_e3yg_uMAxWHVKQEHX2pFiIQFnoECBsQAQ&usg=AOvVaw1QzM8dAue4AH_-VGRfl95b" class="card-link">English Bay Walk</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Travel & Co. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

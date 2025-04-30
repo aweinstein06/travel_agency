@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marrakesh - Travel & Co.</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <header class="destination-header">
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="about_contact.html">About & Contact</a></li>
+      </ul>
+    </nav>
+    
+    <h1>MARRAKESH</h1>
+    <p>
+      Step into the red city — Marrakesh is a feast for the senses. Snake charmers, orange blossom, tiled courtyards, spice-filled souks, and glowing lanterns create an unforgettable Moroccan experience.
+    </p>
+  </header>
+
+  <!-- Carousel -->
+  <section class="carousel">
+    <div class="carousel-container">
+      <img src="images/marrakesh1.jpg" class="carousel-img active" alt="Jemaa el-Fnaa">
+      <img src="images/marrakesh2.jpg" class="carousel-img" alt="Majorelle Garden">
+      <img src="images/marrakesh3.png" class="carousel-img" alt="Traditional Moroccan riad">
+      <button class="carousel-btn left" onclick="prevSlide()">❮</button>
+      <button class="carousel-btn right" onclick="nextSlide()">❯</button>
+    </div>
+  </section>
+
+  <!-- Itinerary -->
+  <section class="itinerary">
+    <h2>4 Days and 3 Nights Getaway</h2>
+    <p class="itinerary-note">Price starts at €2,500 per person (excluding flights)</p>
+
+    <!-- Day 1 -->
+    <div class="day-plan">
+      <h3><span class="day-dot">●</span> Day 1</h3>
+      <ul>
+        <li>12:00PM – Arrive at Marrakesh Menara Airport, private riad transfer</li>
+        <li>3:00PM – Welcome mint tea & traditional hammam experience</li>
+        <li>8:00PM – Moroccan dinner with live Gnawa music</li>
+      </ul>
+    </div>
+
+    <!-- Day 2 -->
+    <div class="day-plan">
+      <h3><span class="day-dot">●</span> Day 2</h3>
+      <ul>
+        <li>9:00AM – Explore the medina: Bahia Palace, Koutoubia Mosque, and souks</li>
+        <li>12:30PM – Lunch in a rooftop café overlooking the market</li>
+        <li>3:00PM – Visit to the Majorelle Garden & Yves Saint Laurent Museum</li>
+        <li>7:00PM – Sunset drinks at El Fenn terrace</li>
+      </ul>
+    </div>
+
+    <!-- Day 3 -->
+    <div class="day-plan">
+      <h3><span class="day-dot">●</span> Day 3</h3>
+      <ul>
+        <li>8:00AM – Day trip to the Agafay Desert: camel ride & lunch under a tent</li>
+        <li>6:00PM – Return & optional spa treatment or souk shopping</li>
+        <li>9:00PM – Dinner in a traditional riad with belly dancing show</li>
+      </ul>
+    </div>
+
+    <!-- Day 4 -->
+    <div class="day-plan">
+      <h3><span class="day-dot">●</span> Day 4</h3>
+      <ul>
+        <li>9:00AM – Visit to a local artisan cooperative (ceramics or textiles)</li>
+        <li>11:00AM – Moroccan brunch with pastries and mint tea</li>
+        <li>1:00PM – Check-out & airport transfer</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Hotels -->
+  <section class="section-block">
+    <h2>Where to Stay</h2>
+    <div class="card-row">
+      <div class="card">
+        <img src="images/marrakesh-hotel1.jpg" alt="La Mamounia">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.mamounia.com/?utm_source%3DMyBusiness%26utm_medium%3Dgoogle&ved=2ahUKEwj-oPO76umMAxWIFlkFHWVwPRYQ_Bd6BAgbEAI&opi=89978449&usg=AOvVaw0j20f1wxivTekCd39TqcSf" class="card-link">La Mamounia</a>
+      </div>
+      <div class="card">
+        <img src="images/marrakesh-hotel2.jpg" alt="Royal Mansour">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.royalmansour.com/en/marrakech/?utm_source%3Dgoogle%26utm_medium%3Dlocal%26utm_campaign%3Dhotel-royal-mansour-marrakech&ved=2ahUKEwi1q9LD6umMAxVjjokEHR1FF-kQ_Bd6BAgfEAI&opi=89978449&usg=AOvVaw3ZGklRWtzz7q-11924jjAJ" class="card-link">Royal Mansour</a>
+      </div>
+      <div class="card">
+        <img src="images/marrakesh-hotel3.webp" alt="Riad Yasmine">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=http://riad-yasmine.com/&ved=2ahUKEwiLjvrg6umMAxWBjYkEHfDtCgMQ_Bd6BAgdEAI&opi=89978449&usg=AOvVaw1tw2pWRfdnQkqwTMq4AzFl" class="card-link">Riad Yasmine</a>
+      </div>
+      <div class="card">
+        <img src="images/marrakesh-hotel4.jpg" alt="El Fenn">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://el-fenn.com/&ved=2ahUKEwi52bfm6umMAxWyhIkEHZdCC6EQ_Bd6BAgnEAI&opi=89978449&usg=AOvVaw1ew76kvvIZdV0tP1VQPW5h" class="card-link">El Fenn</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Restaurants -->
+  <section class="section-block">
+    <h2>Restaurants</h2>
+    <div class="card-row">
+      <div class="card">
+        <img src="images/nomad.jpg" alt="Nomad">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://nomadmarrakech.com/&ved=2ahUKEwjTrpf-6umMAxW3lYkEHd6QGi4QFnoECEMQAQ&usg=AOvVaw1WqD-hnTlfDo8qvnP6vD8l" class="card-link">Nomad</a>
+      </div>
+      <div class="card">
+        <img src="images/dar-yacout.jpg" alt="Dar Yacout">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=http://www.daryacout.com/&ved=2ahUKEwj83oGF6-mMAxV2vokEHT7KGPYQ_Bd6BAggEAI&opi=89978449&usg=AOvVaw3ss3RXRiG4MHIC0hppubjj" class="card-link">Dar Yacout</a>
+      </div>
+      <div class="card">
+        <img src="images/le-jardin.jpg" alt="Le Jardin">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://lejardinmarrakech.com/&ved=2ahUKEwiV39qb6-mMAxVGv4kEHY4dAUkQFnoECB0QAQ&usg=AOvVaw3gEs15Vv7T1vTxSlOWeHqh" class="card-link">Le Jardin</a>
+      </div>
+      <div class="card">
+        <img src="images/limoni.jpg" alt="La Limonade de Marrakesh">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://limoni.ma/&ved=2ahUKEwjinZWj6-mMAxWljokEHU8FED8QFnoECCcQAQ&usg=AOvVaw1fH5oPhwCk8T7qsn50pPGq" class="card-link">Limoni</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Activities -->
+  <section class="section-block">
+    <h2>Activities</h2>
+    <div class="card-row">
+      <div class="card">
+        <img src="images/marrakesh-hammam.jpg" alt="Hammam Experience">
+        <a href="https://www.getyourguide.com/marrakesh-l208/marrakech-traditional-hammam-massage-with-hotel-transfers-t891641/?ranking_uuid=33f86035-d622-4999-b287-cfc15c6cbcf7" class="card-link">Traditional Hammam & Spa</a>
+      </div>
+      <div class="card">
+        <img src="images/desert.jpg" alt="Agafay Camel Ride">
+        <a href="https://www.getyourguide.com/marrakesh-l208/marrakech-agafay-desert-quad-camel-rides-with-dinner-show-t486696/?ranking_uuid=8da79507-4ca4-43a4-93f7-603dd92fc409" class="card-link">Camel Ride in Agafay Desert</a>
+      </div>
+      <div class="card">
+        <img src="images/majorelle.jpg" alt="Majorelle Garden">
+        <a href="https://www.getyourguide.com/marrakesh-l208/majorelle-gardens-with-optional-ysl-and-berber-museum-ticket-t593175/?ranking_uuid=ea458645-1749-45b4-8867-01e1975999dd" class="card-link">Visit Majorelle Garden</a>
+      </div>
+      <div class="card">
+        <img src="images/souk.jpg" alt="Souk Shopping">
+        <a href="https://www.getyourguide.com/marrakesh-l208/marrakech-medina-and-souks-walking-tour-t313388/?ranking_uuid=d0929add-4922-49d6-957d-393f2d8773b7" class="card-link">Medina & Souk Guided Tour</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Travel & Co. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

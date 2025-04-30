@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rio de Janeiro - Travel & Co.</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <header class="destination-header">
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="about_contact.html">About & Contact</a></li>
+      </ul>
+    </nav>
+    
+    <h1>RIO DE JANEIRO</h1>
+    <p>
+      A city of contrast and charisma — Rio blends golden beaches, lush jungle, samba beats, and Christ the Redeemer above it all. Whether you crave carnival or calm, Rio delivers both.
+    </p>
+  </header>
+
+  <!-- Carousel -->
+  <section class="carousel">
+    <div class="carousel-container">
+      <img src="images/rio1.avif" class="carousel-img active" alt="Christ the Redeemer">
+      <img src="images/rio2.jpg" class="carousel-img" alt="Copacabana Beach">
+      <img src="images/rio3.webp" class="carousel-img" alt="Sugarloaf Mountain">
+      <button class="carousel-btn left" onclick="prevSlide()">❮</button>
+      <button class="carousel-btn right" onclick="nextSlide()">❯</button>
+    </div>
+  </section>
+
+  <!-- Itinerary -->
+  <section class="itinerary">
+    <h2>4 Days and 3 Nights Getaway</h2>
+    <p class="itinerary-note">Price starts at €2,900 per person (excluding flights)</p>
+
+    <!-- Day 1 -->
+    <div class="day-plan">
+      <h3><span class="day-dot">●</span> Day 1</h3>
+      <ul>
+        <li>12:00PM – Arrive at Galeão International Airport, transfer to hotel</li>
+        <li>3:00PM – Walk along Copacabana and enjoy a fresh coconut</li>
+        <li>8:00PM – Welcome caipirinhas and dinner with beach views</li>
+      </ul>
+    </div>
+
+    <!-- Day 2 -->
+    <div class="day-plan">
+      <h3><span class="day-dot">●</span> Day 2</h3>
+      <ul>
+        <li>9:00AM – Visit Christ the Redeemer & Tijuca National Forest</li>
+        <li>12:30PM – Lunch at a churrascaria (Brazilian BBQ)</li>
+        <li>3:00PM – Explore the Selarón Steps & Santa Teresa neighborhood</li>
+        <li>7:30PM – Samba show at Rio Scenarium</li>
+      </ul>
+    </div>
+
+    <!-- Day 3 -->
+    <div class="day-plan">
+      <h3><span class="day-dot">●</span> Day 3</h3>
+      <ul>
+        <li>8:00AM – Cable car to Sugarloaf Mountain for sunrise views</li>
+        <li>10:30AM – Beach time at Ipanema & lunch at a local kiosk</li>
+        <li>3:00PM – Optional hang-gliding or botanical garden visit</li>
+        <li>8:00PM – Rooftop dinner with panoramic city views</li>
+      </ul>
+    </div>
+
+    <!-- Day 4 -->
+    <div class="day-plan">
+      <h3><span class="day-dot">●</span> Day 4</h3>
+      <ul>
+        <li>9:00AM – Morning visit to Feira Hippie de Ipanema (Sundays)</li>
+        <li>11:30AM – Fresh fruit brunch & live Bossa Nova music</li>
+        <li>1:00PM – Check-out & airport transfer</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Hotels -->
+  <section class="section-block">
+    <h2>Where to Stay</h2>
+    <div class="card-row">
+      <div class="card">
+        <img src="images/rio-hotel1.jpg" alt="Belmond Copacabana Palace">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.belmond.com/hotels/south-america/brazil/rio-de-janeiro/belmond-copacabana-palace/?utm_source%3Dlocal_search%26utm_medium%3Dlink%26utm_campaign%3Dgoogle_business&ved=2ahUKEwiRqIDZqOyMAxWEFlkFHVJGMawQ_Bd6BAggEAI&opi=89978449&usg=AOvVaw2MWYjm3PgWEq-jJSIRb4Yb" class="card-link">Belmond Copacabana Palace</a>
+      </div>
+      <div class="card">
+        <img src="images/rio-hotel2.jpg" alt="Hotel Fasano">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=http://www.fasano.com.br/&ved=2ahUKEwic4-LfqOyMAxVYGVkFHda7CHAQ_Bd6BAglEAI&opi=89978449&usg=AOvVaw0oTTes7DzJZlvdvyVSsiYB" class="card-link">Hotel Fasano Rio</a>
+      </div>
+      <div class="card">
+        <img src="images/rio-hotel3.jpg" alt="Emiliano Rio">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://emiliano.com.br/&ved=2ahUKEwjox_r0qOyMAxUoFVkFHWmrFXoQ_Bd6BAgiEAI&opi=89978449&usg=AOvVaw26YYG4WHCsiMESlIXYe1cM" class="card-link">Emiliano Rio</a>
+      </div>
+      <div class="card">
+        <img src="images/rio-hotel4.avif" alt="Janeiro Hotel">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://janeirohotel.rio/&ved=2ahUKEwiNko_9qOyMAxVzK1kFHfaaI2YQ_Bd6BAgfEAI&opi=89978449&usg=AOvVaw0sd9kQhS9jKtbyEh-v3Xlb" class="card-link">Janeiro Hotel</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Restaurants -->
+  <section class="section-block">
+    <h2>Restaurants</h2>
+    <div class="card-row">
+      <div class="card">
+        <img src="images/aprazivel.jpg" alt="Aprazível">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=http://www.aprazivel.com.br/&ved=2ahUKEwiS_6-fqeyMAxUsMlkFHUBmJs8Q_Bd6BAgjEAI&opi=89978449&usg=AOvVaw3tSEqAe9mWEYtDG_z5MEem" class="card-link">Aprazível</a>
+      </div>
+      <div class="card">
+        <img src="images/ctboucherie.jpg" alt="CT Boucherie">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://go.tagme.com.br/reservaboucherieleblon&ved=2ahUKEwjIoI2nqeyMAxXMEVkFHUGxHeIQ_Bd6BAgsEAI&opi=89978449&usg=AOvVaw3ggVHgKZ0Zl5JHRdbUM8dn" class="card-link">CT Boucherie</a>
+      </div>
+      <div class="card">
+        <img src="images/ojulieta.jpg" alt="O Julieta">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://julietadeserpa.com.br/gastronomia/julieta-restaurante/&ved=2ahUKEwibiMfIqeyMAxVZM1kFHeIALl8Q_Bd6BAggEAI&opi=89978449&usg=AOvVaw2lRezcMeRmhVWyehDRNjAR" class="card-link">O Julieta</a>
+      </div>
+      <div class="card">
+        <img src="images/zaza.jpg" alt="Zazá Bistrô">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.instagram.com/zazabistro?igsh%3DMXB0Z3A2NGI1c3ZueQ%3D%3D&ved=2ahUKEwiS3uLOqeyMAxVvEGIAHVFTEbwQ_Bd6BAhJEAI&opi=89978449&usg=AOvVaw25U07YdqDGdpngJ2myVuik" class="card-link">Zazá Bistrô Tropical</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Activities -->
+  <section class="section-block">
+    <h2>Activities</h2>
+    <div class="card-row">
+      <div class="card">
+        <img src="images/redeemer.jpg" alt="Christ the Redeemer">
+        <a href="https://www.getyourguide.com/rio-de-janeiro-l9/christ-the-redeemer-cog-train-ticket-t161850/?ranking_uuid=e5f0172c-429e-4284-9c16-0860a322f2af" class="card-link">Christ the Redeemer Tour</a>
+      </div>
+      <div class="card">
+        <img src="images/sugarloaf.webp" alt="Sugarloaf Mountain">
+        <a href="https://www.getyourguide.com/sugarloaf-cable-car-l23318/rio-de-janeiro-sugarloaf-cable-car-official-ticket-t289500/?ranking_uuid=9f9c2602-a357-4f45-860d-c43c6661d04f" class="card-link">Sugarloaf Cable Car Ride</a>
+      </div>
+      <div class="card">
+        <img src="images/samba.jpg" alt="Samba Experience">
+        <a href="https://www.getyourguide.com/rio-scenarium-pavilhao-da-cultura-l7451/rio-de-janeiro-rio-scenarium-entrance-dinner-and-open-bar-t383919/?ranking_uuid=c07b5c97-14af-4cde-a6e6-028017dcf0ab" class="card-link">Samba Night at Rio Scenarium</a>
+      </div>
+      <div class="card">
+        <img src="images/selaron.avif" alt="Selaron Steps">
+        <a href="https://www.airbnb.com/experiences/3787977?c=.pi0.pk21690586450_168862475244&gad_source=1&gad_campaignid=21690586450&gbraid=0AAAAAoNIxoPpymdi7dP2vgRgq1OKgELZl&gclid=Cj0KCQjw_JzABhC2ARIsAPe3ynpVfdCIdEp6FhspveXmBPeVQgr6QAda0XEIYVE5YXVYgmj6OJoSZYkaAmlIEALw_wcB" class="card-link">Selarón Steps & Santa Teresa</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Travel & Co. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

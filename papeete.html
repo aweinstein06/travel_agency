@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Papeete - Travel & Co.</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <header class="destination-header">
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="about_contact.html">About & Contact</a></li>
+      </ul>
+    </nav>
+    
+    <h1>PAPEETE</h1>
+    <p>
+      Welcome to Tahiti’s dreamy capital — Papeete is a vibrant fusion of island spirit and French flair. Lush markets, dancing palms, coral lagoons, and golden sunsets await you in paradise.
+    </p>
+  </header>
+
+  <!-- Carousel -->
+  <section class="carousel">
+    <div class="carousel-container">
+      <img src="images/papeete1.jpg" class="carousel-img active" alt="Tahiti beach">
+      <img src="images/papeete2.webp" class="carousel-img" alt="Papeete market">
+      <img src="images/papeete3.avif" class="carousel-img" alt="Lagoon view">
+      <button class="carousel-btn left" onclick="prevSlide()">❮</button>
+      <button class="carousel-btn right" onclick="nextSlide()">❯</button>
+    </div>
+  </section>
+
+  <!-- Itinerary -->
+  <section class="itinerary">
+    <h2>4 Days and 3 Nights Getaway</h2>
+    <p class="itinerary-note">Price starts at €4,200 per person (excluding flights)</p>
+
+    <!-- Day 1 -->
+    <div class="day-plan">
+      <h3><span class="day-dot">●</span> Day 1</h3>
+      <ul>
+        <li>12:00PM – Arrive at Faa’a International Airport, fresh lei welcome</li>
+        <li>3:00PM – Check-in to your beachfront bungalow and relax</li>
+        <li>7:00PM – Polynesian dinner show with fire dancing</li>
+      </ul>
+    </div>
+
+    <!-- Day 2 -->
+    <div class="day-plan">
+      <h3><span class="day-dot">●</span> Day 2</h3>
+      <ul>
+        <li>9:00AM – Guided tour of Papeete Market & Pearl Museum</li>
+        <li>12:30PM – Lunch with a view at a lagoon-side café</li>
+        <li>3:00PM – Outrigger canoe ride & snorkeling at the reef</li>
+        <li>6:00PM – Sunset cocktails over Moorea views</li>
+      </ul>
+    </div>
+
+    <!-- Day 3 -->
+    <div class="day-plan">
+      <h3><span class="day-dot">●</span> Day 3</h3>
+      <ul>
+        <li>8:00AM – Jeep safari into Tahiti’s lush interior</li>
+        <li>1:00PM – Picnic by waterfalls & river swim</li>
+        <li>5:00PM – Spa treatment with monoi oils</li>
+        <li>8:00PM – Dinner at Le Coco’s with ocean breeze</li>
+      </ul>
+    </div>
+
+    <!-- Day 4 -->
+    <div class="day-plan">
+      <h3><span class="day-dot">●</span> Day 4</h3>
+      <ul>
+        <li>9:00AM – Visit black sand beach & farewell photoshoot</li>
+        <li>11:30AM – Tropical brunch & fresh coconut juice</li>
+        <li>1:00PM – Check-out & airport transfer</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Hotels -->
+  <section class="section-block">
+    <h2>Where to Stay</h2>
+    <div class="card-row">
+      <div class="card">
+        <img src="images/papeete-hotel1.avif" alt="InterContinental Tahiti">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://tahiti.intercontinental.com/&ved=2ahUKEwiCpNju8emMAxXxlIkEHfyuFrYQ_Bd6BAgfEAI&opi=89978449&usg=AOvVaw3gZvpzDEwbuCoQpLynb2nR" class="card-link">InterContinental Tahiti Resort & Spa</a>
+      </div>
+      <div class="card">
+        <img src="images/papeete-hotel2.jpg" alt="Hotel Sarah Nui">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.findyourhtl.com/hotel-sarah-nui/&ved=2ahUKEwi45uX08emMAxW3kIkEHVHgKYMQ_Bd6BAgdEAI&opi=89978449&usg=AOvVaw14ViBSrS18BvkNJlHBC1fq" class="card-link">Hotel Sarah Nui</a>
+      </div>
+      <div class="card">
+        <img src="images/papeete-hotel3.avif" alt="Te Moana Tahiti">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=http://www.temoanatahitiresort.pf/&ved=2ahUKEwj6kYOP8umMAxVuCnkGHV7OC78Q_Bd6BAgdEAI&opi=89978449&usg=AOvVaw0atUWoGTKvQXD--kf-3if4" class="card-link">Te Moana Tahiti Resort</a>
+      </div>
+      <div class="card">
+        <img src="images/papeete-hotel4.jpg" alt="Royal Tahitien">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.royaltahitien.com/&ved=2ahUKEwjw8_aX8umMAxVtvokEHT1TPI8Q_Bd6BAgdEAI&opi=89978449&usg=AOvVaw3D1aE29-pZyzsnc1AQ_w1_" class="card-link">Royal Tahitien</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Restaurants -->
+  <section class="section-block">
+    <h2>Restaurants</h2>
+    <div class="card-row">
+      <div class="card">
+        <img src="images/le-coco.jpg" alt="Le Coco's">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.visualitineraries.com/VisitPoint.asp%3Flocation%3D5364%26title%3DLe%2BCoco%2527s%2BRestaurant&ved=2ahUKEwjr8NGz8umMAxXSmYkEHeFKPFwQFnoECDYQAQ&usg=AOvVaw1HqNatvMIHbq57Uv_cqWbY" class="card-link">Le Coco’s</a>
+      </div>
+      <div class="card">
+        <img src="images/blue-banana.jpg" alt="Blue Banana">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.facebook.com/pages/Blue-Banana/330193647041640&ved=2ahUKEwjX9Y-98umMAxXElokEHb5BK2YQ_Bd6BAgcEAI&opi=89978449&usg=AOvVaw0c6h1Z-gRQEfwmIF03ZgjQ" class="card-link">Blue Banana</a>
+      </div>
+      <div class="card">
+        <img src="images/l-o-auberge.webp" alt="L’O à la Bouche">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=http://www.loalabouchetahiti.com/&ved=2ahUKEwjs5_Dh8umMAxUvnokEHebXOxcQ_Bd6BAgoEAI&opi=89978449&usg=AOvVaw2bmC0H4psEwRZ36tk_6SOZ" class="card-link">L’O à la Bouche</a>
+      </div>
+      <div class="card">
+        <img src="images/roulottes.webp" alt="Les Roulottes">
+        <a href="https://www.tripadvisor.com/Attraction_Review-g294352-d2143255-Reviews-Papeete_Roulottes-Papeete_Tahiti_Society_Islands.html" class="card-link">Les Roulottes (Food Trucks)</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Activities -->
+  <section class="section-block">
+    <h2>Activities</h2>
+    <div class="card-row">
+      <div class="card">
+        <img src="images/snorkel.jpg" alt="Snorkeling Reef">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.getmyboat.com/journal/experiences/snorkeling/best-snorkeling-in-papeete/&ved=2ahUKEwjO0YCP8-mMAxVyg4kEHTYNHfUQFnoECBsQAQ&usg=AOvVaw0HbD05Oz6yjykxK6CwSVzO" class="card-link">Snorkeling at the Reef</a>
+      </div>
+      <div class="card">
+        <img src="images/papeete-safari.jpg" alt="Tahiti Safari">
+        <a href="https://www.viator.com/tours/Tahiti/Papeete-Inner-Island-Full-Day-Jeep-Safari/d25-2830TMTNJEEPC" class="card-link">Jeep Safari in Tahiti’s Interior</a>
+      </div>
+      <div class="card">
+        <img src="images/papeete-market.jpg" alt="Papeete Market">
+        <a href="https://www.tahititourisme.com/a-visit-to-papeete-market/" class="card-link">Papeete Market Tour</a>
+      </div>
+      <div class="card">
+        <img src="images/lava-beach.webp" alt="Black Sand Beach">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.bohoandsalty.com/blog/black-beach-in-tahiti/&ved=2ahUKEwjft_nF8-mMAxXXlokEHZuzIlwQFnoECDUQAQ&usg=AOvVaw3cmNYrVISBJ0Bu4V4dx_cS" class="card-link">Black Sand Beach Visit</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Travel & Co. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cartagena - Travel & Co.</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <header class="destination-header">
+    <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="destinations.html">Destinations</a></li>
+          <li><a href="reviews.html">Reviews</a></li>
+          <li><a href="about_contact.html">About & Contact</a></li>
+        </ul>
+      </nav>
+    
+    <h1>CARTAGENA</h1>
+    <p>
+      Cartagena is Colombia’s crown jewel — a walled city of romance and rhythm. With vibrant facades, beachy breezes, and Afro-Caribbean soul, this city invites you to slow down and dance through time.
+    </p>
+  </header>
+
+  <!-- Carousel -->
+  <section class="carousel">
+    <div class="carousel-container">
+      <img src="images/cartagena1.jpg" class="carousel-img active" alt="Colorful Street">
+      <img src="images/cartagena2.jpg" class="carousel-img" alt="Old City Walls">
+      <img src="images/cartagena3.avif" class="carousel-img" alt="Sunset on the Coast">
+      <button class="carousel-btn left" onclick="prevSlide()">❮</button>
+      <button class="carousel-btn right" onclick="nextSlide()">❯</button>
+    </div>
+  </section>
+
+  <!-- Itinerary -->
+  <section class="itinerary">
+    <h2>4 Days and 3 Nights Getaway</h2>
+    <p class="itinerary-note">Price starts at €2,400 per person (excluding flights)</p>
+
+    <!-- Day 1 -->
+    <div class="day-plan">
+      <h3><span class="day-dot">●</span> Day 1</h3>
+      <ul>
+        <li>12:00PM – Arrive at Rafael Núñez Airport, transfer to historic center</li>
+        <li>3:00PM – Welcome drinks on a colonial rooftop</li>
+        <li>7:00PM – Dinner at a coastal fusion restaurant inside the walled city</li>
+      </ul>
+    </div>
+
+    <!-- Day 2 -->
+    <div class="day-plan">
+      <h3><span class="day-dot">●</span> Day 2</h3>
+      <ul>
+        <li>9:00AM – Walking tour of the old town & Getsemaní graffiti streets</li>
+        <li>12:00PM – Ceviche lunch at a local café</li>
+        <li>3:00PM – Visit to Castillo San Felipe fortress</li>
+        <li>6:30PM – Sunset cocktails at Café del Mar</li>
+      </ul>
+    </div>
+
+    <!-- Day 3 -->
+    <div class="day-plan">
+      <h3><span class="day-dot">●</span> Day 3</h3>
+      <ul>
+        <li>8:00AM – Day trip to the Rosario Islands (snorkeling & beach lunch)</li>
+        <li>5:00PM – Return & relax by the hotel pool</li>
+        <li>8:00PM – Live music and dancing in Plaza de la Trinidad</li>
+      </ul>
+    </div>
+
+    <!-- Day 4 -->
+    <div class="day-plan">
+      <h3><span class="day-dot">●</span> Day 4</h3>
+      <ul>
+        <li>9:00AM – Visit to Bazurto Market with local guide</li>
+        <li>11:30AM – Fresh fruit tasting & artisan shopping</li>
+        <li>1:00PM – Check-out & airport transfer</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Hotels -->
+  <section class="section-block">
+    <h2>Where to Stay</h2>
+    <div class="card-row">
+      <div class="card">
+        <img src="images/cartagena-hotel1.jpg" alt="Casa San Agustin">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=http://www.hotelcasasanagustin.com/&ved=2ahUKEwjU1Y-K4umMAxVprYkEHU2sNSUQ_Bd6BAgiEAI&opi=89978449&usg=AOvVaw2y5Rk-obyUs1fWStJhYB0r" class="card-link">Casa San Agustin</a>
+      </div>
+      <div class="card">
+        <img src="images/cartagena-hotel2.jpg" alt="Hotel Charleston Santa Teresa">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.hotelcharlestonsantateresa.com/?utm_source%3Dyext%26utm_medium%3Dreferral&ved=2ahUKEwjAyJyw4umMAxVwwvACHdPrCAwQ_Bd6BAgfEAI&opi=89978449&usg=AOvVaw1O52LpqByNNhYo1GIYe8Ia" class="card-link">Charleston Santa Teresa</a>
+      </div>
+      <div class="card">
+        <img src="images/cartagena-hotel3.jpg" alt="Bastión Luxury Hotel">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=http://www.bastionluxuryhotel.com/?partner%3D4153%26utm_source%3Dgoogle%26utm_medium%3Dmybusiness&ved=2ahUKEwiRkem24umMAxX6mokEHYaEBmEQ_Bd6BAgoEAI&opi=89978449&usg=AOvVaw31YQMkD8j7vMjbRb6tZUBQ" class="card-link">Bastión Luxury Hotel</a>
+      </div>
+      <div class="card">
+        <img src="images/cartagena-hotel4.jpg" alt="Casa Lola">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=http://www.casalola.com/&ved=2ahUKEwjBz9Pe4umMAxVovokEHS_KBvoQ_Bd6BAgiEAI&opi=89978449&usg=AOvVaw2DKlOuFUPnETPQvvj0Dqno" class="card-link">Casa Lola</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Restaurants -->
+  <section class="section-block">
+    <h2>Restaurants</h2>
+    <div class="card-row">
+      <div class="card">
+        <img src="images/carmen.jpg" alt="Carmen Cartagena">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://carmencartagena.com/&ved=2ahUKEwiJh73k4umMAxXJlokEHVi_D7gQ_Bd6BAgqEAI&opi=89978449&usg=AOvVaw278dLAsjOyJ4HKrZ8-SMfS" class="card-link">Carmen Cartagena</a>
+      </div>
+      <div class="card">
+        <img src="images/maria.jpg" alt="Maria">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=http://www.mareacartagena.com/&ved=2ahUKEwitop2E4-mMAxWghIkEHekzKjEQ_Bd6BAg6EAI&opi=89978449&usg=AOvVaw206UBaZSGN0DczLLoZYyYG" class="card-link">Maria</a>
+      </div>
+      <div class="card">
+        <img src="images/la-cevicheria.jpg" alt="La Cevichería">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=http://lacevicheriacartagena.com/&ved=2ahUKEwiJ5sqJ4-mMAxWxlokEHS78CuEQ_Bd6BAgfEAI&opi=89978449&usg=AOvVaw2-uZQ_TSlDYHBxBPTmRslx" class="card-link">La Cevichería</a>
+      </div>
+      <div class="card">
+        <img src="images/oh-la-la.jpg" alt="Oh La La!">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=http://www.ohlalabistro.com/&ved=2ahUKEwiU-r-t4-mMAxWqjIkEHZRENrUQ_Bd6BAgiEAI&opi=89978449&usg=AOvVaw3yg6dvnSmrKJwtNDzrK25t" class="card-link">Oh La La!</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Activities -->
+  <section class="section-block">
+    <h2>Activities</h2>
+    <div class="card-row">
+      <div class="card">
+        <img src="images/island.png" alt="Rosario Islands">
+        <a href="https://www.getyourguide.com/bolivar-l578/cartagena-rosario-islands-tour-on-catamaran-or-speedboat-t497946/?ranking_uuid=6a7821e5-a26d-4cd6-9fb8-58bf098567d4" class="card-link">Rosario Islands Day Trip</a>
+      </div>
+      <div class="card">
+        <img src="images/walking-tour.jpg" alt="Walking Tour">
+        <a href="https://www.getyourguide.com/walled-city-of-cartagena-l115122/cartagena-walled-city-walking-tour-t302618/?ranking_uuid=bbeeb140-0531-428e-9ceb-cd9524fa6626" class="card-link">Old Town Walking Tour</a>
+      </div>
+      <div class="card">
+        <img src="images/salsa.jpg" alt="Salsa Class">
+        <a href="https://www.viator.com/tours/Cartagena/Private-Dancing-Class-in-Cartagena/d4498-161743P28" class="card-link">Private Salsa Dancing Class</a>
+      </div>
+      <div class="card">
+        <img src="images/bazurto-market.webp" alt="Bazurto Market">
+        <a href="https://www.getyourguide.com/cartagena-l362/cartagena-bazuro-local-food-market-walking-tour-t525658/?ranking_uuid=d53881cb-08bc-4773-8a5d-7c4003b5a6f3" class="card-link">Bazurto Market Tour</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Travel & Co. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

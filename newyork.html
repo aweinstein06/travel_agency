@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>New York - Travel & Co.</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <header class="destination-header">
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="about_contact.html">About & Contact</a></li>
+      </ul>
+    </nav>
+    
+    <h1>NEW YORK CITY</h1>
+    <p>
+      Welcome to the city that never sleeps — New York is a dizzying mix of energy, style, culture, and skyline views. From Central Park to SoHo, it's not just a place — it’s a lifestyle.
+    </p>
+  </header>
+
+  <!-- Carousel -->
+  <section class="carousel">
+    <div class="carousel-container">
+      <img src="images/nyc1.jpg" class="carousel-img active" alt="Central Park">
+      <img src="images/nyc2.jpg" class="carousel-img" alt="Brooklyn Bridge">
+      <img src="images/nyc3.avif" class="carousel-img" alt="Times Square at night">
+      <button class="carousel-btn left" onclick="prevSlide()">❮</button>
+      <button class="carousel-btn right" onclick="nextSlide()">❯</button>
+    </div>
+  </section>
+
+  <!-- Itinerary -->
+  <section class="itinerary">
+    <h2>4 Days and 3 Nights Getaway</h2>
+    <p class="itinerary-note">Price starts at €3,600 per person (excluding flights)</p>
+
+    <!-- Day 1 -->
+    <div class="day-plan">
+      <h3><span class="day-dot">●</span> Day 1</h3>
+      <ul>
+        <li>12:00PM – Arrive at JFK or LGA, private transfer to Manhattan</li>
+        <li>3:00PM – Walk through Central Park and Upper West Side</li>
+        <li>8:00PM – Dinner in Tribeca and skyline drinks at a rooftop bar</li>
+      </ul>
+    </div>
+
+    <!-- Day 2 -->
+    <div class="day-plan">
+      <h3><span class="day-dot">●</span> Day 2</h3>
+      <ul>
+        <li>9:00AM – Statue of Liberty & Ellis Island ferry tour</li>
+        <li>1:00PM – Lunch at Eataly near the World Trade Center</li>
+        <li>3:00PM – Visit the 9/11 Memorial and One World Observatory</li>
+        <li>7:00PM – Broadway show in Times Square</li>
+      </ul>
+    </div>
+
+    <!-- Day 3 -->
+    <div class="day-plan">
+      <h3><span class="day-dot">●</span> Day 3</h3>
+      <ul>
+        <li>10:00AM – Explore the MET or the Museum of Modern Art (MoMA)</li>
+        <li>1:00PM – Brunch in SoHo and shopping in Nolita</li>
+        <li>4:00PM – Sunset walk across the Brooklyn Bridge</li>
+        <li>8:00PM – Jazz night in Greenwich Village</li>
+      </ul>
+    </div>
+
+    <!-- Day 4 -->
+    <div class="day-plan">
+      <h3><span class="day-dot">●</span> Day 4</h3>
+      <ul>
+        <li>9:00AM – Hudson Yards & the Vessel experience</li>
+        <li>11:30AM – Final bagels or pancakes at a classic NYC diner</li>
+        <li>1:00PM – Check-out & airport transfer</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Hotels -->
+  <section class="section-block">
+    <h2>Where to Stay</h2>
+    <div class="card-row">
+      <div class="card">
+        <img src="images/nyc-hotel1.webp" alt="The Mark">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.themarkhotel.com/?utm_source%3Dgmb%26utm_medium%3Dorganic&ved=2ahUKEwivucGx7-mMAxVxmYkEHeaXIJsQ_Bd6BAgaEAI&opi=89978449&usg=AOvVaw0i3mAjHeFR00tIDJjC0oEx" class="card-link">The Mark</a>
+      </div>
+      <div class="card">
+        <img src="images/nyc-hotel2.jpg" alt="The Greenwich Hotel">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=http://www.thegreenwichhotel.com/&ved=2ahUKEwjp_sO67-mMAxXeC3kGHcG8Fp0Q_Bd6BAgfEAI&opi=89978449&usg=AOvVaw0T5dmHuVpz-ka4ZdpxvlXS" class="card-link">The Greenwich Hotel</a>
+      </div>
+      <div class="card">
+        <img src="images/nyc-hotel3.jpg" alt="The Chatwal">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.hyatt.com/unbound-collection/en-US/nycuc-the-chatwal?src%3Dcorp_lclb_google_seo_nycuc%26utm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_campaign%3Dlmr&ved=2ahUKEwiu6vzQ7-mMAxW3tIkEHSPVIQ4Q_Bd6BAgiEAI&opi=89978449&usg=AOvVaw3dDyD1eyeD-9oTsXjTvBkq" class="card-link">The Chatwal</a>
+      </div>
+      <div class="card">
+        <img src="images/nyc-hotel4.jpg" alt="Arlo SoHo">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.arlohotels.com/soho?utm_source%3Dgoogle%26utm_medium%3DLocal%2BSEO%26utm_campaign%3DGoogle%2BBusiness%2BProfile&ved=2ahUKEwjX9IXZ7-mMAxXaAHkGHX33F3YQ_Bd6BAgfEAI&opi=89978449&usg=AOvVaw0yp-qKyQqEJLHHzmx8xzAN" class="card-link">Arlo SoHo</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Restaurants -->
+  <section class="section-block">
+    <h2>Restaurants</h2>
+    <div class="card-row">
+      <div class="card">
+        <img src="images/gramercy.jpg" alt="Gramercy Tavern">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=http://www.gramercytavern.com/?utm_source%3DGoogleBusinessProfile%26utm_medium%3DWebsite%26utm_campaign%3DMapLabs&ved=2ahUKEwjo-rmL8OmMAxVDjIkEHTAQAikQ_Bd6BAgiEAI&opi=89978449&usg=AOvVaw2B0EqIL2-qFinX9A8tipWY" class="card-link">Gramercy Tavern</a>
+      </div>
+      <div class="card">
+        <img src="images/abc.avif" alt="ABC Kitchen">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.abckitchen.nyc/&ved=2ahUKEwj0z-aQ8OmMAxXbk4kEHenaE24Q_Bd6BAgfEAI&opi=89978449&usg=AOvVaw0yquQIdVybQ6oW4iK0uy71" class="card-link">ABC Kitchen</a>
+      </div>
+      <div class="card">
+        <img src="images/carbone.webp" alt="Carbone">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.carbonenewyork.com/?utm_medium%3DClick%26utm_source%3DGoogleMyBusiness&ved=2ahUKEwiewPmk8OmMAxWRv4kEHT1ELNIQ_Bd6BAggEAI&opi=89978449&usg=AOvVaw0CKH5Ob1nywxdlrkzXOzUE" class="card-link">Carbone</a>
+      </div>
+      <div class="card">
+        <img src="images/levain.webp" alt="Levain Bakery">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://levainbakery.com/%3Fsrsltid%3DAfmBOopT7-Lib6TUeiJwxW1l27KEtvSd7ypyp9zQ9nLHLw77caTKyb_h&ved=2ahUKEwjnzfes8OmMAxUSv4kEHWt5BVkQFnoECBwQAQ&usg=AOvVaw0h2TIGl3NsxyxDQ1lbTxus" class="card-link">Levain Bakery</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Activities -->
+  <section class="section-block">
+    <h2>Activities</h2>
+    <div class="card-row">
+      <div class="card">
+        <img src="images/statue.avif" alt="Statue of Liberty">
+        <a href="https://www.getyourguide.com/new-york-city-l59/nyc-statue-of-liberty-45-minute-cruise-skip-the-box-office-t375711/" class="card-link">Statue of Liberty Ferry</a>
+      </div>
+      <div class="card">
+        <img src="images/moma.webp" alt="MoMA">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.moma.org/&ved=2ahUKEwi9xqLz8OmMAxWShYkEHS5ZB0EQ_Bd6BAhIEAI&opi=89978449&usg=AOvVaw3oHCVZyNn7-G8yzQs57ZaC" class="card-link">Museum of Modern Art (MoMA)</a>
+      </div>
+      <div class="card">
+        <img src="images/broadway.jpg" alt="Broadway">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.broadway.com/&ved=2ahUKEwi2ob368OmMAxUAmIkEHVofKYkQFnoECAwQAQ&usg=AOvVaw2ul3A3a-p4AgCs5n0qXcbJ" class="card-link">Broadway Night</a>
+      </div>
+      <div class="card">
+        <img src="images/brooklyn.jpg" alt="Brooklyn Bridge Walk">
+        <a href="https://www.tripadvisor.com/Articles-lp65X8YNtHlA-Brooklyn_bridge_walk.html" class="card-link">Brooklyn Bridge Walk</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Travel & Co. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

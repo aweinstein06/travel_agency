@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Johannesburg - Travel & Co.</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <header class="destination-header">
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="about_contact.html">About & Contact</a></li>
+      </ul>
+    </nav>
+    
+    <h1>JOHANNESBURG</h1>
+    <p>
+      Johannesburg is South Africa’s beating heart — a vibrant metropolis of resilience, history, and reinvention. From Soweto’s stories to Sandton’s sparkle, Jozi offers powerful experiences at every turn.
+    </p>
+  </header>
+
+  <!-- Carousel -->
+  <section class="carousel">
+    <div class="carousel-container">
+      <img src="images/joburg1.jpg" class="carousel-img active" alt="Johannesburg skyline">
+      <img src="images/joburg2.jpg" class="carousel-img" alt="Apartheid Museum">
+      <img src="images/joburg3.jpg" class="carousel-img" alt="Street art in Maboneng">
+      <button class="carousel-btn left" onclick="prevSlide()">❮</button>
+      <button class="carousel-btn right" onclick="nextSlide()">❯</button>
+    </div>
+  </section>
+
+  <!-- Itinerary -->
+  <section class="itinerary">
+    <h2>4 Days and 3 Nights Getaway</h2>
+    <p class="itinerary-note">Price starts at €2,750 per person (excluding flights)</p>
+
+    <!-- Day 1 -->
+    <div class="day-plan">
+      <h3><span class="day-dot">●</span> Day 1</h3>
+      <ul>
+        <li>12:00PM – Arrival at OR Tambo International, transfer to hotel</li>
+        <li>3:00PM – Orientation walk through Rosebank or Melrose Arch</li>
+        <li>7:00PM – Welcome dinner with live jazz in Maboneng</li>
+      </ul>
+    </div>
+
+    <!-- Day 2 -->
+    <div class="day-plan">
+      <h3><span class="day-dot">●</span> Day 2</h3>
+      <ul>
+        <li>9:00AM – Guided tour of the Apartheid Museum & Constitution Hill</li>
+        <li>1:00PM – Traditional South African lunch in Soweto</li>
+        <li>3:00PM – Visit to Nelson Mandela’s House & Vilakazi Street</li>
+        <li>6:00PM – Sunset cocktails at The Leonardo’s rooftop bar</li>
+      </ul>
+    </div>
+
+    <!-- Day 3 -->
+    <div class="day-plan">
+      <h3><span class="day-dot">●</span> Day 3</h3>
+      <ul>
+        <li>8:00AM – Day safari at Pilanesberg National Park (Big Five spotting)</li>
+        <li>6:00PM – Return to Johannesburg & dinner at Marble Restaurant</li>
+      </ul>
+    </div>
+
+    <!-- Day 4 -->
+    <div class="day-plan">
+      <h3><span class="day-dot">●</span> Day 4</h3>
+      <ul>
+        <li>9:00AM – Brunch & shopping at Neighbourgoods Market</li>
+        <li>11:30AM – Street art tour of Braamfontein</li>
+        <li>1:00PM – Farewell lunch & airport transfer</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Hotels -->
+  <section class="section-block">
+    <h2>Where to Stay</h2>
+    <div class="card-row">
+      <div class="card">
+        <img src="images/joburg-hotel1.jpg" alt="The Saxon Hotel">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=http://www.saxon.co.za/&ved=2ahUKEwjEhOKW5emMAxWcEFkFHV6lBSQQ_Bd6BAgeEAI&opi=89978449&usg=AOvVaw3geankQ4yXExuIOsFbnrxp" class="card-link">The Saxon Hotel & Villas</a>
+      </div>
+      <div class="card">
+        <img src="images/joburg-hotel2.jpg" alt="Four Seasons Westcliff">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.fourseasons.com/johannesburg/?utm_source%3Dgoogle%26utm_medium%3Dorganicsearch%26utm_campaign%3Dtor-jbg-hre-mid-seo-na%26utm_content%3Dna-na%26utm_term%3Dna&ved=2ahUKEwi5tO-c5emMAxWcLVkFHfYELbcQ_Bd6BAgfEAI&opi=89978449&usg=AOvVaw2F9QHMuMzIhqpw6XespGLk" class="card-link">Four Seasons Westcliff</a>
+      </div>
+      <div class="card">
+        <img src="images/joburg-hotel3.jpg" alt="Radisson Blu Sandton">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.radissonhotels.com/en-us/hotels/radisson-blu-johannesburg-sandton&ved=2ahUKEwinytW95emMAxX8mIkEHULtBUkQFnoECBsQAQ&usg=AOvVaw078OpMvN4Glf7TA2vnrgPG" class="card-link">Radisson Blu Sandton</a>
+      </div>
+      <div class="card">
+        <img src="images/joburg-hotel4.jpg" alt="The Peech Hotel">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://thepeech.co.za/&ved=2ahUKEwiBw_nE5emMAxV-k4kEHR_lCYcQ_Bd6BAgdEAI&opi=89978449&usg=AOvVaw1hhDOTNQ-fbb5gRwlDSwM7" class="card-link">The Peech Hotel</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Restaurants -->
+  <section class="section-block">
+    <h2>Restaurants</h2>
+    <div class="card-row">
+      <div class="card">
+        <img src="images/marble.jpg" alt="Marble Restaurant">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://marble.restaurant/?utm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_campaign%3DGMB%26utm_content%3DMarble%2520Restaurant&ved=2ahUKEwjGgKbw5emMAxWVhYkEHbWvNe8Q_Bd6BAgpEAI&opi=89978449&usg=AOvVaw1Xej3XqfXlyC9TobR_vkRH" class="card-link">Marble</a>
+      </div>
+      <div class="card">
+        <img src="images/proudmary.jpg" alt="Proud Mary">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.proudmary.co.za/&ved=2ahUKEwi5ld375emMAxUkFlkFHVMzKgQQ_Bd6BAgiEAI&opi=89978449&usg=AOvVaw0_pzacVJScbZdQZhwYpr9q" class="card-link">Proud Mary</a>
+      </div>
+      <div class="card">
+        <img src="images/signature.avif" alt="Signature Restaurant">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://signaturerestaurant.co.za/&ved=2ahUKEwjQs4eY5umMAxX7AHkGHfxBEn0Q_Bd6BAgfEAI&opi=89978449&usg=AOvVaw2VJrWXI4rkoV0UJnKJeDqX" class="card-link">Signature</a>
+      </div>
+      <div class="card">
+        <img src="images/fairlawns.jpg" alt="Fairlawns">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://fairlawns.co.za/amuse-bouche/&ved=2ahUKEwigp5-x5umMAxVGF1kFHQnsKt8Q_Bd6BAgzEAI&opi=89978449&usg=AOvVaw1_GeCYjyCKLt_BoCels1fo" class="card-link">Fairlawns Restaurant</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Activities -->
+  <section class="section-block">
+    <h2>Activities</h2>
+    <div class="card-row">
+      <div class="card">
+        <img src="images/maboneng.jpg" alt="Maboneng Arts">
+        <a href="#" class="card-link">Maboneng Art Walk</a>
+      </div>
+      <div class="card">
+        <img src="images/constitutionhill.jpg" alt="Constitution Hill">
+        <a href="#" class="card-link">Constitution Hill Tour</a>
+      </div>
+      <div class="card">
+        <img src="images/safari.jpg" alt="Safari Trip">
+        <a href="#" class="card-link">Pilanesberg Day Safari</a>
+      </div>
+      <div class="card">
+        <img src="images/mandela.jpg" alt="Nelson Mandela House">
+        <a href="#" class="card-link">Visit Mandela’s House</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Travel & Co. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

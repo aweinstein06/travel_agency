@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Punta Cana - Travel & Co.</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <header class="destination-header">
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="about_contact.html">About & Contact</a></li>
+      </ul>
+    </nav>
+    
+    <h1>PUNTA CANA</h1>
+    <p>
+      A tropical playground in the Dominican Republic — Punta Cana is all about crystal-clear waters, all-inclusive bliss, Caribbean rhythms, and long lazy days under swaying palms.
+    </p>
+  </header>
+
+  <!-- Carousel -->
+  <section class="carousel">
+    <div class="carousel-container">
+      <img src="images/puntacana1.jpg" class="carousel-img active" alt="Punta Cana Beach">
+      <img src="images/puntacana2.jpg" class="carousel-img" alt="Resort View">
+      <img src="images/puntacana3.jpg" class="carousel-img" alt="Catamaran Cruise">
+      <button class="carousel-btn left" onclick="prevSlide()">❮</button>
+      <button class="carousel-btn right" onclick="nextSlide()">❯</button>
+    </div>
+  </section>
+
+  <!-- Itinerary -->
+  <section class="itinerary">
+    <h2>4 Days and 3 Nights Getaway</h2>
+    <p class="itinerary-note">Price starts at €2,200 per person (excluding flights)</p>
+
+    <!-- Day 1 -->
+    <div class="day-plan">
+      <h3><span class="day-dot">●</span> Day 1</h3>
+      <ul>
+        <li>12:00PM – Arrive at Punta Cana Airport, tropical welcome drink</li>
+        <li>3:00PM – Beach check-in and afternoon swim</li>
+        <li>7:00PM – Seafood dinner under the stars</li>
+      </ul>
+    </div>
+
+    <!-- Day 2 -->
+    <div class="day-plan">
+      <h3><span class="day-dot">●</span> Day 2</h3>
+      <ul>
+        <li>9:00AM – Catamaran cruise & snorkeling at Isla Catalina</li>
+        <li>1:00PM – Onboard BBQ and open bar</li>
+        <li>5:00PM – Return to resort and sunset beach walk</li>
+        <li>8:00PM – Dominican-themed buffet with live merengue</li>
+      </ul>
+    </div>
+
+    <!-- Day 3 -->
+    <div class="day-plan">
+      <h3><span class="day-dot">●</span> Day 3</h3>
+      <ul>
+        <li>10:00AM – Spa morning: coconut scrub and beach massage</li>
+        <li>1:00PM – Lunch at beachfront grill</li>
+        <li>3:00PM – Optional zip-lining or cenote swim excursion</li>
+        <li>7:30PM – Fine dining at Passion by Martín Berasategui</li>
+      </ul>
+    </div>
+
+    <!-- Day 4 -->
+    <div class="day-plan">
+      <h3><span class="day-dot">●</span> Day 4</h3>
+      <ul>
+        <li>9:00AM – Sunrise yoga or paddleboarding session</li>
+        <li>11:00AM – Tropical fruit brunch & oceanfront photos</li>
+        <li>1:00PM – Check-out & airport transfer</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Hotels -->
+  <section class="section-block">
+    <h2>Where to Stay</h2>
+    <div class="card-row">
+      <div class="card">
+        <img src="images/puntacana-hotel1.webp" alt="Eden Roc Cap Cana">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=http://www.edenroccapcana.com/&ved=2ahUKEwiWsPzp9OmMAxUOj4kEHfDtLP0Q_Bd6BAggEAI&opi=89978449&usg=AOvVaw1TNzS5yn_ZwYfVlS7_JDma" class="card-link">Eden Roc Cap Cana</a>
+      </div>
+      <div class="card">
+        <img src="images/puntacana-hotel2.jpg" alt="Tortuga Bay">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.tortugabayhotel.com/&ved=2ahUKEwjIsoKB9emMAxXOnokEHX6uEXkQ_Bd6BAgcEAI&opi=89978449&usg=AOvVaw2DnQyGgujJXbIJFhEtQYyR" class="card-link">Tortuga Bay Hotel</a>
+      </div>
+      <div class="card">
+        <img src="images/puntacana-hotel3.jpg" alt="Secrets Cap Cana">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.hyattinclusivecollection.com/en/resorts-hotels/secrets/dominican-republic/royal-beach-punta-cana/?src%3Dcorp_lclb_google_seo_serpc%26utm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_campaign%3Dlmr&ved=2ahUKEwjn8LWH9emMAxVmtokEHZklKoMQ_Bd6BAg8EAI&opi=89978449&usg=AOvVaw2CTJ1-RP7i2rcZ9R1hNORf" class="card-link">Secrets Cap Cana</a>
+      </div>
+      <div class="card">
+        <img src="images/puntacana-hotel4.jpg" alt="The Level at Meliá">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.levelpuntacana.com/&ved=2ahUKEwiGg-ub9emMAxV6rokEHcRXK6sQFnoECDQQAQ&usg=AOvVaw0Fv0kAppxwEVuN0_OpeWaX" class="card-link">The Level at Meliá Punta Cana</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Restaurants -->
+  <section class="section-block">
+    <h2>Restaurants</h2>
+    <div class="card-row">
+      <div class="card">
+        <img src="images/castaways.jpg" alt="Castaways">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://castawaysbistro.com/&ved=2ahUKEwiQhcmt9emMAxWIMlkFHYemDZAQ_Bd6BAgiEAI&opi=89978449&usg=AOvVaw27ybQVzyIyrshW6Nfwk1-r" class="card-link">Castaways Bistot</a>
+      </div>
+      <div class="card">
+        <img src="images/la-yola.jpg" alt="La Yola">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.puntacana.com/en/dining/restaurants/layolamenu&ved=2ahUKEwim7fnG9emMAxUBlIkEHWRVB8oQFnoECDkQAQ&usg=AOvVaw2o8MO8XV9Tkm5GJYIE74yz" class="card-link">La Yola</a>
+      </div>
+      <div class="card">
+        <img src="images/citrus.jpg" alt="Citrus Restaurant">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.instagram.com/citrusfusioncuisine/&ved=2ahUKEwjtrfHh9emMAxVmmIkEHZrRMD0Q_Bd6BAg9EAI&opi=89978449&usg=AOvVaw2zqg85Ug9IEY7I938JEjAX" class="card-link">Citrus Restaurant</a>
+      </div>
+      <div class="card">
+        <img src="images/playa-blanca.jpg" alt="Playa Blanca">
+        <a href=https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.puntacana.com/dining/&ved=2ahUKEwiI7sLv9emMAxXuMlkFHYZHFWwQ_Bd6BAgKEAI&opi=89978449&usg=AOvVaw1mzKcdZN-1RqU8dD0of1tW#" class="card-link">Playa Blanca</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Activities -->
+  <section class="section-block">
+    <h2>Activities</h2>
+    <div class="card-row">
+      <div class="card">
+        <img src="images/catamaran.jpg" alt="Snorkeling Trip">
+        <a href="https://www.getyourguide.com/punta-cana-l411/punta-cana-catamaran-tour-with-reef-snorkeling-and-open-bar-t551850/?ranking_uuid=e2449276-2e37-431c-b03a-886024cdd921" class="card-link">Catamaran Snorkel Cruise</a>
+      </div>
+      <div class="card">
+        <img src="images/puntacana-spa.jpg" alt="Spa Retreat">
+        <a href="https://www.getyourguide.com/punta-cana-l411/punta-cana-ocean-spa-massage-pilates-and-facial-mask-t432324/?ranking_uuid=ee4ac22c-a119-41a1-b911-2b6678671a53" class="card-link">Oceanfront Spa Experience</a>
+      </div>
+      <div class="card">
+        <img src="images/zipline.jpg" alt="Zipline Adventure">
+        <a href="https://www.getyourguide.com/punta-cana-l411/punta-cana-la-hacienda-park-ticket-with-transfer-and-lunch-t417385/?ranking_uuid=7039a287-7e0b-4a8b-8d0d-9a1859a90b14" class="card-link">Zipline & Eco Park Adventure</a>
+      </div>
+      <div class="card">
+        <img src="images/paddle.jpg" alt="Paddleboarding">
+        <a href="https://www.tripadvisor.com/AttractionProductReview-g150812-d15830807-Sunrise_paddleboard_group_session_Caribbean_Sea_Foto_s_included-Playa_del_Carmen_Y.html" class="card-link">Paddleboarding at Sunrise</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Travel & Co. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
